@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Média" xml:space="preserve"><value>Média</value></data>
+  <data name="Lecture" xml:space="preserve"><value>Lecture</value></data>
+  <data name="Vidéo" xml:space="preserve"><value>Vidéo</value></data>
+  <data name="Sous-titres" xml:space="preserve"><value>Sous-titres</value></data>
+  <data name="Outils" xml:space="preserve"><value>Outils</value></data>
+  <data name="Aide" xml:space="preserve"><value>Aide</value></data>
+  <data name="Paramètres" xml:space="preserve"><value>Paramètres</value></data>
+  <data name="Fermer" xml:space="preserve"><value>Fermer</value></data>
+  <data name="Annuler" xml:space="preserve"><value>Annuler</value></data>
+  <data name="Appliquer" xml:space="preserve"><value>Appliquer</value></data>
+  <data name="Enregistrer" xml:space="preserve"><value>Enregistrer</value></data>
+  <data name="Réinitialiser" xml:space="preserve"><value>Réinitialiser</value></data>
+  <data name="section_general" xml:space="preserve"><value>GÉNÉRAL</value></data>
+  <data name="section_media" xml:space="preserve"><value>MÉDIA</value></data>
+  <data name="section_system" xml:space="preserve"><value>SYSTÈME</value></data>
+  <data name="section_interface" xml:space="preserve"><value>INTERFACE</value></data>
+  <data name="RACCOURCIS" xml:space="preserve"><value>RACCOURCIS</value></data>
+  <data name="Lecture, navigation et comportement de lecture." xml:space="preserve"><value>Lecture, navigation et comportement de lecture.</value></data>
+  <data name="File des médias, historique et réglages mémorisés par fichier." xml:space="preserve"><value>File des médias, historique et réglages mémorisés par fichier.</value></data>
+  <data name="Énergie, intégration, configuration et dépannage." xml:space="preserve"><value>Énergie, intégration, configuration et dépannage.</value></data>
+  <data name="Barres, fenêtre, apparence et interactions." xml:space="preserve"><value>Barres, fenêtre, apparence et interactions.</value></data>
+  <data name="Retour en arrière" xml:space="preserve"><value>Retour en arrière</value></data>
+  <data name="Avance rapide" xml:space="preserve"><value>Avance rapide</value></data>
+  <data name="Priorité aux chapitres" xml:space="preserve"><value>Priorité aux chapitres</value></data>
+  <data name="Fichier suivant" xml:space="preserve"><value>Fichier suivant</value></data>
+  <data name="Dossier suivant" xml:space="preserve"><value>Dossier suivant</value></data>
+  <data name="Titre du dossier" xml:space="preserve"><value>Titre du dossier</value></data>
+  <data name="Lecture continue" xml:space="preserve"><value>Lecture continue</value></data>
+  <data name="Lecture aléatoire au démarrage" xml:space="preserve"><value>Lecture aléatoire au démarrage</value></data>
+  <data name="Répéter le média actuel au démarrage" xml:space="preserve"><value>Répéter le média actuel au démarrage</value></data>
+  <data name="Reprendre la position" xml:space="preserve"><value>Reprendre la position</value></data>
+  <data name="Lecture automatique à l’ouverture" xml:space="preserve"><value>Lecture automatique à l’ouverture</value></data>
+  <data name="Répéter la file" xml:space="preserve"><value>Répéter la file</value></data>
+  <data name="Confirmer avant de fermer" xml:space="preserve"><value>Confirmer avant de fermer</value></data>
+  <data name="Mise en mémoire tampon" xml:space="preserve"><value>Mise en mémoire tampon</value></data>
+  <data name="Conservation de l’historique" xml:space="preserve"><value>Conservation de l’historique</value></data>
+  <data name="Dossiers visibles dans les médias récents" xml:space="preserve"><value>Dossiers visibles dans les médias récents</value></data>
+  <data name="Dossiers visibles dans la file des médias" xml:space="preserve"><value>Dossiers visibles dans la file des médias</value></data>
+  <data name="Suggérer Fuze pour les fichiers" xml:space="preserve"><value>Suggérer Fuze pour les fichiers</value></data>
+  <data name="Paramètres audio" xml:space="preserve"><value>Paramètres audio</value></data>
+  <data name="Paramètres vidéo" xml:space="preserve"><value>Paramètres vidéo</value></data>
+  <data name="Paramètres des sous-titres" xml:space="preserve"><value>Paramètres des sous-titres</value></data>
+  <data name="Périphérique de sortie" xml:space="preserve"><value>Périphérique de sortie</value></data>
+  <data name="Mode audio adaptatif" xml:space="preserve"><value>Mode audio adaptatif</value></data>
+  <data name="Désactivée" xml:space="preserve"><value>Désactivée</value></data>
+  <data name="Activé" xml:space="preserve"><value>Activé</value></data>
+  <data name="Triangle classique" xml:space="preserve"><value>Triangle classique</value></data>
+  <data name="Barre compacte" xml:space="preserve"><value>Barre compacte</value></data>
+  <data name="Curseur flottant" xml:space="preserve"><value>Curseur flottant</value></data>
+  <data name="Barre horizontale" xml:space="preserve"><value>Barre horizontale</value></data>
+  <data name="Déplacement libre" xml:space="preserve"><value>Déplacement libre</value></data>
+  <data name="Espacement automatique" xml:space="preserve"><value>Espacement automatique</value></data>
+  <data name="Position horizontale centrale" xml:space="preserve"><value>Position horizontale centrale</value></data>
+  <data name="Largeur du titre du média" xml:space="preserve"><value>Largeur du titre du média</value></data>
+  <data name="Masquer les barres verticales" xml:space="preserve"><value>Masquer les barres verticales</value></data>
+  <data name="Masquer la barre horizontale" xml:space="preserve"><value>Masquer la barre horizontale</value></data>
+  <data name="Nom de l’interface" xml:space="preserve"><value>Nom de l’interface</value></data>
+  <data name="Choisissez la langue utilisée par le système et les interfaces de Fuse." xml:space="preserve"><value>Choisissez la langue utilisée par le système et les interfaces de Fuse.</value></data>
+  <data name="Synchronisation des pistes" xml:space="preserve"><value>Synchronisation des pistes</value></data>
+  <data name="Ajustement en temps réel pendant la lecture" xml:space="preserve"><value>Ajustement en temps réel pendant la lecture</value></data>
+  <data name="section_video" xml:space="preserve"><value>VIDÉO</value></data>
+  <data name="section_audio" xml:space="preserve"><value>AUDIO</value></data>
+  <data name="section_subtitles" xml:space="preserve"><value>SOUS-TITRES</value></data>
+  <data name="Tout réinitialiser" xml:space="preserve"><value>Tout réinitialiser</value></data>
+  <data name="Liste complète" xml:space="preserve"><value>Liste complète</value></data>
+  <data name="Cette liste reflète les touches enregistrées dans Paramètres › Raccourcis." xml:space="preserve"><value>Cette liste reflète les touches enregistrées dans Paramètres › Raccourcis.</value></data>
+  <data name="Modifier" xml:space="preserve"><value>Modifier</value></data>
+  <data name="À propos de Fuze" xml:space="preserve"><value>À propos de Fuze</value></data>
+</root>

@@ -1,0 +1,5 @@
+[1/5] Performing configure step for 'libsixel'
+[2/5] Performing build step for 'libsixel'
+[3/5] Performing install step for 'libsixel'
+[4/5] Deleting build directory of libsixel package after install
+[5/5] Completed 'libsixel'

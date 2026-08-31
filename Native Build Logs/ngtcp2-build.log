@@ -1,0 +1,5 @@
+[1/5] Performing configure step for 'ngtcp2'
+[2/5] Performing build step for 'ngtcp2'
+[3/5] Performing install step for 'ngtcp2'
+[4/5] Deleting build directory of ngtcp2 package after install
+[5/5] Completed 'ngtcp2'

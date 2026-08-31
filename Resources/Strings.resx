@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Média" xml:space="preserve"><value>Media</value></data>
+  <data name="Aucun" xml:space="preserve"><value>None</value></data>
+  <data name="Informations sur le média" xml:space="preserve"><value>Media information</value></data>
+  <data name="Position trouvée" xml:space="preserve"><value>Position found</value></data>
+  <data name="Suit le périphérique sélectionné dans Windows" xml:space="preserve"><value>Follows the device selected in Windows</value></data>
+  <data name="Indisponible — {0}" xml:space="preserve"><value>Unavailable — {0}</value></data>
+  <data name="Détermine précisément où le titre de démarrage apparaît dans l’image." xml:space="preserve"><value>Precisely determines where the startup title appears in the image.</value></data>
+  <data name="Ignore la position intégrée au fichier et applique les marges choisies." xml:space="preserve"><value>Ignores the position embedded in the file and applies the chosen margins.</value></data>
+  <data name="Fermer Fuse" xml:space="preserve"><value>Close Fuze</value></data>
+  <data name="La lecture en cours sera arrêtée et la session sera enregistrée." xml:space="preserve"><value>Current playback will stop and the session will be saved.</value></data>
+  <data name="Lecture" xml:space="preserve"><value>Playback</value></data>
+  <data name="Audio" xml:space="preserve"><value>Audio</value></data>
+  <data name="Vidéo" xml:space="preserve"><value>Video</value></data>
+  <data name="Sous-titres" xml:space="preserve"><value>Subtitles</value></data>
+  <data name="Outils" xml:space="preserve"><value>Tools</value></data>
+  <data name="Aide" xml:space="preserve"><value>Help</value></data>
+  <data name="Ouvrir un fichier…" xml:space="preserve"><value>Open file…</value></data>
+  <data name="Ouvrir plusieurs fichiers…" xml:space="preserve"><value>Open multiple files…</value></data>
+  <data name="Ouvrir un dossier…" xml:space="preserve"><value>Open folder…</value></data>
+  <data name="Ouvrir un disque…" xml:space="preserve"><value>Open disc…</value></data>
+  <data name="Médias récents" xml:space="preserve"><value>Recent media</value></data>
+  <data name="Aucun média récent" xml:space="preserve"><value>No recent media</value></data>
+  <data name="Enregistrer la liste de lecture…" xml:space="preserve"><value>Save playlist…</value></data>
+  <data name="Ouvrir une liste de lecture…" xml:space="preserve"><value>Open playlist…</value></data>
+  <data name="Informations sur le média…" xml:space="preserve"><value>Media information…</value></data>
+  <data name="Informations supplémentaires sur le média…" xml:space="preserve"><value>Additional media information…</value></data>
+  <data name="Fermer le média actuel" xml:space="preserve"><value>Close current media</value></data>
+  <data name="Lecture / pause" xml:space="preserve"><value>Play / pause</value></data>
+  <data name="Chapitre" xml:space="preserve"><value>Chapter</value></data>
+  <data name="Aucun chapitre" xml:space="preserve"><value>No chapters</value></data>
+  <data name="Aller à un temps spécifique…" xml:space="preserve"><value>Go to specific time…</value></data>
+  <data name="Vitesse de lecture" xml:space="preserve"><value>Playback speed</value></data>
+  <data name="Chapitre précédent" xml:space="preserve"><value>Previous chapter</value></data>
+  <data name="Chapitre suivant" xml:space="preserve"><value>Next chapter</value></data>
+  <data name="Média précédent" xml:space="preserve"><value>Previous media</value></data>
+  <data name="Média suivant" xml:space="preserve"><value>Next media</value></data>
+  <data name="Reculer de 15 secondes" xml:space="preserve"><value>Rewind 15 seconds</value></data>
+  <data name="Avancer de 30 secondes" xml:space="preserve"><value>Forward 30 seconds</value></data>
+  <data name="Choisir la piste" xml:space="preserve"><value>Choose track</value></data>
+  <data name="Aucune piste audio" xml:space="preserve"><value>No audio track</value></data>
+  <data name="Périphérique audio" xml:space="preserve"><value>Audio device</value></data>
+  <data name="Par défaut (Windows)" xml:space="preserve"><value>Default (Windows)</value></data>
+  <data name="Mode des canaux" xml:space="preserve"><value>Channel mode</value></data>
+  <data name="Automatique (original)" xml:space="preserve"><value>Automatic (original)</value></data>
+  <data name="Traitement audio" xml:space="preserve"><value>Audio processing</value></data>
+  <data name="Aucun traitement actif" xml:space="preserve"><value>No active processing</value></data>
+  <data name="Synchronisation audio…" xml:space="preserve"><value>Audio synchronization…</value></data>
+  <data name="Augmenter le volume" xml:space="preserve"><value>Increase volume</value></data>
+  <data name="Baisser le volume" xml:space="preserve"><value>Decrease volume</value></data>
+  <data name="Muet" xml:space="preserve"><value>Mute</value></data>
+  <data name="Aucune piste vidéo" xml:space="preserve"><value>No video track</value></data>
+  <data name="Plein écran" xml:space="preserve"><value>Fullscreen</value></data>
+  <data name="Capture d’écran" xml:space="preserve"><value>Screenshot</value></data>
+  <data name="Zoom" xml:space="preserve"><value>Zoom</value></data>
+  <data name="Synchronisation vidéo…" xml:space="preserve"><value>Video synchronization…</value></data>
+  <data name="Ajouter un fichier…" xml:space="preserve"><value>Add a file…</value></data>
+  <data name="Synchronisation des sous-titres…" xml:space="preserve"><value>Subtitle synchronization…</value></data>
+  <data name="Synchronisation des pistes…" xml:space="preserve"><value>Track synchronization…</value></data>
+  <data name="Réinitialiser la synchronisation" xml:space="preserve"><value>Reset synchronization</value></data>
+  <data name="Paramètres…" xml:space="preserve"><value>Settings…</value></data>
+  <data name="Raccourcis clavier" xml:space="preserve"><value>Keyboard shortcuts</value></data>
+  <data name="Informer d’un problème" xml:space="preserve"><value>Report a problem</value></data>
+  <data name="Site web de Fuze" xml:space="preserve"><value>Fuze website</value></data>
+  <data name="À propos de Fuze" xml:space="preserve"><value>About Fuze</value></data>
+  <data name="Déposez une vidéo ici" xml:space="preserve"><value>Drop a video here</value></data>
+  <data name="Aucun média" xml:space="preserve"><value>No media</value></data>
+  <data name="File des médias" xml:space="preserve"><value>Media queue</value></data>
+  <data name="Recherche de médias" xml:space="preserve"><value>Search media</value></data>
+  <data name="Enregistrer" xml:space="preserve"><value>Save</value></data>
+  <data name="Vider" xml:space="preserve"><value>Clear</value></data>
+  <data name="Fermer" xml:space="preserve"><value>Close</value></data>
+  <data name="Annuler" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Appliquer" xml:space="preserve"><value>Apply</value></data>
+  <data name="Créer" xml:space="preserve"><value>Create</value></data>
+  <data name="Ajouter" xml:space="preserve"><value>Add</value></data>
+  <data name="Retirer" xml:space="preserve"><value>Remove</value></data>
+  <data name="Réinitialiser" xml:space="preserve"><value>Reset</value></data>
+  <data name="Paramètres" xml:space="preserve"><value>Settings</value></data>
+  <data name="CATÉGORIES" xml:space="preserve"><value>CATEGORIES</value></data>
+  <data name="Général" xml:space="preserve"><value>General</value></data>
+  <data name="Raccourcis" xml:space="preserve"><value>Shortcuts</value></data>
+  <data name="Interface" xml:space="preserve"><value>Interface</value></data>
+  <data name="Système" xml:space="preserve"><value>System</value></data>
+  <data name="section_settings" xml:space="preserve"><value>SETTINGS</value></data>
+  <data name="Synchronisation des pistes" xml:space="preserve"><value>Track synchronization</value></data>
+  <data name="Mise en page de la barre inférieure" xml:space="preserve"><value>Bottom bar layout</value></data>
+  <data name="MODÈLE DE DÉPART" xml:space="preserve"><value>STARTING MODEL</value></data>
+  <data name="COMMANDES DISPONIBLES" xml:space="preserve"><value>AVAILABLE COMMANDS</value></data>
+  <data name="Choisissez une commande, puis ajoutez-la ou retirez-la de la barre." xml:space="preserve"><value>Choose a command, then add or remove it from the bar.</value></data>
+  <data name="Enregistrer sous" xml:space="preserve"><value>Save as</value></data>
+  <data name="Supprimer" xml:space="preserve"><value>Delete</value></data>
+  <data name="Version 1.0.0 • Windows x64" xml:space="preserve"><value>Version 1.0.0 • Windows x64</value></data>
+  <data name="Créé par ImWeLLaN" xml:space="preserve"><value>Created by ImWeLLaN</value></data>
+  <data name="Lecteur multimédia libre, pensé pour une lecture fluide." xml:space="preserve"><value>Free media player designed for smooth playback.</value></data>
+  <data name="FONCTIONNALITÉS PRINCIPALES" xml:space="preserve"><value>KEY FEATURES</value></data>
+  <data name="AMÉLIORATIONS À VENIR" xml:space="preserve"><value>UPCOMING IMPROVEMENTS</value></data>
+  <data name="DONNÉES ET LICENCES" xml:space="preserve"><value>DATA AND LICENSES</value></data>
+  <data name="LIENS DU PROJET" xml:space="preserve"><value>PROJECT LINKS</value></data>
+  <data name="section_general" xml:space="preserve"><value>GENERAL</value></data>
+  <data name="section_media" xml:space="preserve"><value>MEDIA</value></data>
+  <data name="section_system" xml:space="preserve"><value>SYSTEM</value></data>
+  <data name="section_interface" xml:space="preserve"><value>INTERFACE</value></data>
+  <data name="section_shortcuts" xml:space="preserve"><value>SHORTCUTS</value></data>
+  <data name="section_keyboard_shortcuts" xml:space="preserve"><value>KEYBOARD SHORTCUTS</value></data>
+  <data name="Lecture, navigation et comportement de lecture." xml:space="preserve"><value>Playback, navigation and playback behavior.</value></data>
+  <data name="File des médias, historique et réglages mémorisés par fichier." xml:space="preserve"><value>Media queue, history and per-file settings.</value></data>
+  <data name="Énergie, intégration, configuration et dépannage." xml:space="preserve"><value>Power, integration, configuration and troubleshooting.</value></data>
+  <data name="Barres, fenêtre, apparence et interactions." xml:space="preserve"><value>Bars, window, appearance and interactions.</value></data>
+  <data name="Retour en arrière" xml:space="preserve"><value>Rewind</value></data>
+  <data name="Avance rapide" xml:space="preserve"><value>Fast forward</value></data>
+  <data name="Priorité aux chapitres" xml:space="preserve"><value>Prioritize chapters</value></data>
+  <data name="Fichier suivant" xml:space="preserve"><value>Next file</value></data>
+  <data name="Dossier suivant" xml:space="preserve"><value>Next folder</value></data>
+  <data name="Titre du dossier" xml:space="preserve"><value>Folder title</value></data>
+  <data name="Lecture continue" xml:space="preserve"><value>Continuous playback</value></data>
+  <data name="Lecture aléatoire au démarrage" xml:space="preserve"><value>Shuffle at startup</value></data>
+  <data name="Répéter le média actuel au démarrage" xml:space="preserve"><value>Repeat current media at startup</value></data>
+  <data name="Reprendre la position" xml:space="preserve"><value>Resume position</value></data>
+  <data name="Lecture automatique à l’ouverture" xml:space="preserve"><value>Autoplay on open</value></data>
+  <data name="Répéter la file" xml:space="preserve"><value>Repeat queue</value></data>
+  <data name="Confirmer avant de fermer" xml:space="preserve"><value>Confirm before closing</value></data>
+  <data name="Mise en mémoire tampon" xml:space="preserve"><value>Buffering</value></data>
+  <data name="Conservation de l’historique" xml:space="preserve"><value>History retention</value></data>
+  <data name="Dossiers visibles dans les médias récents" xml:space="preserve"><value>Folders visible in recent media</value></data>
+  <data name="Dossiers visibles dans la file des médias" xml:space="preserve"><value>Folders visible in media queue</value></data>
+  <data name="Suggérer Fuze pour les fichiers" xml:space="preserve"><value>Suggest Fuze for files</value></data>
+  <data name="Paramètres audio" xml:space="preserve"><value>Audio settings</value></data>
+  <data name="Paramètres vidéo" xml:space="preserve"><value>Video settings</value></data>
+  <data name="Paramètres des sous-titres" xml:space="preserve"><value>Subtitle settings</value></data>
+  <data name="Périphérique de sortie" xml:space="preserve"><value>Output device</value></data>
+  <data name="Mode audio adaptatif" xml:space="preserve"><value>Adaptive audio mode</value></data>
+  <data name="Désactivée" xml:space="preserve"><value>Disabled</value></data>
+  <data name="Activé" xml:space="preserve"><value>Enabled</value></data>
+  <data name="Triangle classique" xml:space="preserve"><value>Classic triangle</value></data>
+  <data name="Barre compacte" xml:space="preserve"><value>Compact bar</value></data>
+  <data name="Curseur flottant" xml:space="preserve"><value>Floating cursor</value></data>
+  <data name="Barre horizontale" xml:space="preserve"><value>Horizontal bar</value></data>
+  <data name="Déplacement libre" xml:space="preserve"><value>Free movement</value></data>
+  <data name="Espacement automatique" xml:space="preserve"><value>Automatic spacing</value></data>
+  <data name="Position horizontale centrale" xml:space="preserve"><value>Center horizontal position</value></data>
+  <data name="Largeur du titre du média" xml:space="preserve"><value>Media title width</value></data>
+  <data name="Masquer les barres verticales" xml:space="preserve"><value>Hide vertical bars</value></data>
+  <data name="Masquer la barre horizontale" xml:space="preserve"><value>Hide horizontal bar</value></data>
+  <data name="Nom de l’interface" xml:space="preserve"><value>Interface name</value></data>
+  <data name="Choisissez la langue utilisée par le système et les interfaces de Fuse." xml:space="preserve"><value>Choose the language used by the system and Fuse interfaces.</value></data>
+  <data name="Ajustement en temps réel pendant la lecture" xml:space="preserve"><value>Real-time adjustment during playback</value></data>
+  <data name="section_video" xml:space="preserve"><value>VIDEO</value></data>
+  <data name="section_audio" xml:space="preserve"><value>AUDIO</value></data>
+  <data name="section_subtitles" xml:space="preserve"><value>SUBTITLES</value></data>
+  <data name="Tout réinitialiser" xml:space="preserve"><value>Reset all</value></data>
+  <data name="Liste complète" xml:space="preserve"><value>Complete list</value></data>
+  <data name="Cette liste reflète les touches enregistrées dans Paramètres › Raccourcis." xml:space="preserve"><value>This list reflects the keys saved in Settings › Shortcuts.</value></data>
+  <data name="Modifier" xml:space="preserve"><value>Edit</value></data>
+  <data name="Aucun sous-titre" xml:space="preserve"><value>No subtitles</value></data>
+  <data name="Automatique (recommandé)" xml:space="preserve"><value>Automatic (recommended)</value></data>
+  <data name="Désactivé" xml:space="preserve"><value>Disabled</value></data>
+  <data name="Français" xml:space="preserve"><value>French</value></data>
+  <data name="Anglais" xml:space="preserve"><value>English</value></data>
+  <data name="Japonais" xml:space="preserve"><value>Japanese</value></data>
+  <data name="Version originale (VO)" xml:space="preserve"><value>Original version (OV)</value></data>
+  <data name="Canal gauche" xml:space="preserve"><value>Left channel</value></data>
+  <data name="Canal droit" xml:space="preserve"><value>Right channel</value></data>
+  <data name="Mono" xml:space="preserve"><value>Mono</value></data>
+  <data name="Stéréo" xml:space="preserve"><value>Stereo</value></data>
+  <data name="Stéréo inversée" xml:space="preserve"><value>Reverse stereo</value></data>
+  <data name="Casque binaural" xml:space="preserve"><value>Binaural headphones</value></data>
+  <data name="Surround vers stéréo" xml:space="preserve"><value>Surround to stereo</value></data>
+  <data name="Mode nuit" xml:space="preserve"><value>Night mode</value></data>
+  <data name="Dialogues renforcés" xml:space="preserve"><value>Dialogue boost</value></data>
+  <data name="Préfixe" xml:space="preserve"><value>Prefix</value></data>
+  <data name="Suffixe" xml:space="preserve"><value>Suffix</value></data>
+  <data name="JPEG" xml:space="preserve"><value>JPEG</value></data>
+  <data name="PNG" xml:space="preserve"><value>PNG</value></data>
+  <data name="Parcourir…" xml:space="preserve"><value>Browse…</value></data>
+  <data name="Confirmer" xml:space="preserve"><value>Confirm</value></data>
+  <data name="Reprendre" xml:space="preserve"><value>Resume</value></data>
+  <data name="Recommencer" xml:space="preserve"><value>Restart</value></data>
+  <data name="Aller" xml:space="preserve"><value>Go</value></data>
+  <data name="Affecter" xml:space="preserve"><value>Assign</value></data>
+  <data name="Height" xml:space="preserve"><value>Height</value></data>
+  <data name="APERÇU" xml:space="preserve"><value>PREVIEW</value></data>
+  <data name="APERÇU EN DIRECT" xml:space="preserve"><value>LIVE PREVIEW</value></data>
+  <data name="APPARENCE" xml:space="preserve"><value>APPEARANCE</value></data>
+  <data name="SAUTS DE LECTURE" xml:space="preserve"><value>SEEK INTERVALS</value></data>
+  <data name="LECTURE AUGMENTÉE" xml:space="preserve"><value>ENHANCED PLAYBACK</value></data>
+  <data name="ASSOCIATION DES FICHIERS" xml:space="preserve"><value>FILE ASSOCIATION</value></data>
+  <data name="AUTRES TYPES" xml:space="preserve"><value>OTHER TYPES</value></data>
+  <data name="MODES DE LECTURE" xml:space="preserve"><value>PLAYBACK MODES</value></data>
+  <data name="COMPORTEMENT DE LECTURE" xml:space="preserve"><value>PLAYBACK BEHAVIOR</value></data>
+  <data name="PRÉPARATION ET STABILITÉ" xml:space="preserve"><value>PREPARATION AND STABILITY</value></data>
+  <data name="section_media_queue" xml:space="preserve"><value>MEDIA QUEUE</value></data>
+  <data name="LECTURE ET HISTORIQUE" xml:space="preserve"><value>PLAYBACK AND HISTORY</value></data>
+  <data name="CONFIGURATION" xml:space="preserve"><value>CONFIGURATION</value></data>
+  <data name="JOURNAL DE DIAGNOSTIC" xml:space="preserve"><value>DIAGNOSTIC LOG</value></data>
+  <data name="Démarrage application +{0:0} ms • interface initialisée" xml:space="preserve"><value>Application startup +{0:0} ms • interface initialized</value></data>
+  <data name="Démarrage vidéo +{0:0} ms • {1}" xml:space="preserve"><value>Video startup +{0:0} ms • {1}</value></data>
+  <data name="première image révélée" xml:space="preserve"><value>first frame revealed</value></data>
+  <data name="lecture audio/vidéo démarrée" xml:space="preserve"><value>audio/video playback started</value></data>
+  <data name="fichier chargé par mpv" xml:space="preserve"><value>file loaded by mpv</value></data>
+  <data name="première image signalée par mpv" xml:space="preserve"><value>first frame reported by mpv</value></data>
+  <data name="chargement transmis à mpv" xml:space="preserve"><value>loading sent to mpv</value></data>
+  <data name="ouverture demandée" xml:space="preserve"><value>open requested</value></data>
+  <data name="DISPARITION AUTOMATIQUE DES BARRES" xml:space="preserve"><value>AUTOMATIC BAR HIDING</value></data>
+  <data name="STYLE DU VOLUME" xml:space="preserve"><value>VOLUME STYLE</value></data>
+  <data name="INTERFACE DISCRÈTE AU DÉMARRAGE D’UNE VIDÉO" xml:space="preserve"><value>MINIMAL INTERFACE AT VIDEO START</value></data>
+  <data name="BOUTONS INTÉGRÉS À LA BARRE INFÉRIEURE" xml:space="preserve"><value>BUTTONS IN THE BOTTOM BAR</value></data>
+  <data name="section_screenshots" xml:space="preserve"><value>SCREENSHOTS</value></data>
+  <data name="FENÊTRE ET AFFICHAGE" xml:space="preserve"><value>WINDOW AND DISPLAY</value></data>
+  <data name="DÉCODAGE ET IMAGE" xml:space="preserve"><value>DECODING AND VIDEO</value></data>
+  <data name="ENCODAGE PAR DÉFAUT" xml:space="preserve"><value>DEFAULT ENCODING</value></data>
+  <data name="DÉTECTER LES SOUS-TITRES EXTERNES" xml:space="preserve"><value>DETECT EXTERNAL SUBTITLES</value></data>
+  <data name="AUDIO AU DÉMARRAGE" xml:space="preserve"><value>AUDIO AT STARTUP</value></data>
+  <data name="CANAUX ET TRAITEMENTS PAR DÉFAUT" xml:space="preserve"><value>DEFAULT CHANNELS AND PROCESSING</value></data>
+  <data name="DÉLAI AUDIO PAR DÉFAUT" xml:space="preserve"><value>DEFAULT AUDIO DELAY</value></data>
+  <data name="CHANGEMENT AUTOMATIQUE DE SORTIE" xml:space="preserve"><value>AUTOMATIC OUTPUT SWITCHING</value></data>
+  <data name="section_adaptive_audio" xml:space="preserve"><value>ADAPTIVE AUDIO MODE</value></data>
+  <data name="PISTE AUDIO PRÉFÉRÉE" xml:space="preserve"><value>PREFERRED AUDIO TRACK</value></data>
+  <data name="INFO-BULLES" xml:space="preserve"><value>TOOLTIPS</value></data>
+  <data name="CLICS DANS LA ZONE VIDÉO" xml:space="preserve"><value>CLICKS IN THE VIDEO AREA</value></data>
+  <data name="DÉPLACEMENT DE L’ÉCRAN" xml:space="preserve"><value>SCREEN PANNING</value></data>
+  <data name="Écran, moteur de sortie et captures d’écran." xml:space="preserve"><value>Display, output engine and screenshots.</value></data>
+  <data name="Clic simple : lecture / pause" xml:space="preserve"><value>Single click: play / pause</value></data>
+  <data name="Double-clic : plein écran" xml:space="preserve"><value>Double-click: fullscreen</value></data>
+  <data name="Compacter les boutons absents" xml:space="preserve"><value>Compact missing buttons</value></data>
+  <data name="Bouton de synchronisation" xml:space="preserve"><value>Synchronization button</value></data>
+  <data name="Bouton de lecture aléatoire" xml:space="preserve"><value>Shuffle button</value></data>
+  <data name="Bouton répéter le média actuel" xml:space="preserve"><value>Repeat current media button</value></data>
+  <data name="Bouton de capture" xml:space="preserve"><value>Screenshot button</value></data>
+  <data name="Bouton de vitesse de lecture" xml:space="preserve"><value>Playback speed button</value></data>
+  <data name="Bouton de file des médias" xml:space="preserve"><value>Media queue button</value></data>
+  <data name="Bouton de déplacement de l’écran" xml:space="preserve"><value>Screen panning button</value></data>
+  <data name="Bouton verrouillé au centre" xml:space="preserve"><value>Center-locked button</value></data>
+  <data name="Séparer les deux temps" xml:space="preserve"><value>Separate the two time displays</value></data>
+  <data name="LIGNES DE LA BARRE" xml:space="preserve"><value>BAR GUIDES</value></data>
+  <data name="GAUCHE" xml:space="preserve"><value>LEFT</value></data>
+  <data name="CENTRE" xml:space="preserve"><value>CENTER</value></data>
+  <data name="DROITE" xml:space="preserve"><value>RIGHT</value></data>
+  <data name="Sélectionnez un modèle, puis enregistrez vos propres variantes." xml:space="preserve"><value>Select a model, then save your own variants.</value></data>
+  <data name="Vous modifiez une copie. Donnez-lui un nouveau nom avant de la créer." xml:space="preserve"><value>You are editing a copy. Give it a new name before creating it.</value></data>
+  <data name="Glissez les commandes directement sur la vraie barre du lecteur." xml:space="preserve"><value>Drag commands directly onto the real player bar.</value></data>
+  <data name="Glissez une commande sur la barre du lecteur, ou utilisez les flèches pour ajuster sa ligne." xml:space="preserve"><value>Drag a command onto the player bar, or use the arrows to adjust its row.</value></data>
+  <data name="Active ou désactive le masquage du pointeur selon le délai configuré juste en dessous." xml:space="preserve"><value>Shows or hides the pointer according to the delay configured below.</value></data>
+  <data name="Active ou désactive les actions rapides dans la zone libre de l’image." xml:space="preserve"><value>Enables or disables quick actions in the free area of the video.</value></data>
+  <data name="Activer ou désactiver le déplacement libre pendant l’édition" xml:space="preserve"><value>Enable or disable free movement while editing</value></data>
+  <data name="Adapter à l’écran" xml:space="preserve"><value>Fit to screen</value></data>
+  <data name="Adapter l’interface à la fenêtre" xml:space="preserve"><value>Fit the interface to the window</value></data>
+  <data name="Affiche la file et les prochains médias à lire." xml:space="preserve"><value>Shows the queue and the next media to play.</value></data>
+  <data name="Affiche le nom du chapitre actif avec l’horodatage lorsque vous survolez la barre de temps." xml:space="preserve"><value>Shows the active chapter name with its timestamp when you hover over the timeline.</value></data>
+  <data name="Affiche les épisodes potentiels disponibles sans limite numérique imposée. Le chemin est compacté sous la forme C:\…\Dossier\Sous-dossier\Fichier." xml:space="preserve"><value>Shows potential upcoming episodes without an imposed numeric limit. The path is compacted as C:\…\Folder\Subfolder\File.</value></data>
+  <data name="Afficher et garder la barre des options ouverte (I)" xml:space="preserve"><value>Show and keep the options bar open (I)</value></data>
+  <data name="Afficher les informations à l’écran" xml:space="preserve"><value>Show on-screen information</value></data>
+  <data name="Agrandit ou réduit l’espace réservé au nom de l’épisode dans la barre." xml:space="preserve"><value>Increases or decreases the space reserved for the episode name in the bar.</value></data>
+  <data name="Ajoute le nom du dossier au titre affiché uniquement lors de l’ouverture automatique du premier fichier d’un nouveau dossier." xml:space="preserve"><value>Adds the folder name to the displayed title only when the first file in a new folder opens automatically.</value></data>
+  <data name="Ajoute les fichiers du dossier vidéo frère suivant après les médias actuels. Nécessite l’option Dossier suivant." xml:space="preserve"><value>Adds files from the next sibling video folder after the current media. Requires the Next folder option.</value></data>
+  <data name="Ajouter la commande sélectionnée à la barre" xml:space="preserve"><value>Add the selected command to the bar</value></data>
+  <data name="Ajouter un titre de sous-titres" xml:space="preserve"><value>Add a subtitle title</value></data>
+  <data name="Ajoutez un titre, une extension et choisissez s’il s’agit d’une vidéo ou d’un audio." xml:space="preserve"><value>Add a title and extension, then choose whether it is video or audio.</value></data>
+  <data name="Ajuste automatiquement la taille des contrôles à l’espace disponible, en respectant la mise à l’échelle Windows." xml:space="preserve"><value>Automatically sizes the controls to the available space while respecting Windows scaling.</value></data>
+  <data name="Ajuste la taille selon l’affichage" xml:space="preserve"><value>Adjust size to the display</value></data>
+  <data name="Améliore la lisibilité" xml:space="preserve"><value>Improves readability</value></data>
+  <data name="Appuyez sur une touche ou une combinaison. Échap choisit « Non attribué »." xml:space="preserve"><value>Press a key or key combination. Escape selects “Unassigned”.</value></data>
+  <data name="Appuyez sur une touche…" xml:space="preserve"><value>Press a key…</value></data>
+  <data name="Après la capture, rend immédiatement l’image disponible pour la coller dans une autre application." xml:space="preserve"><value>After capture, immediately makes the image available to paste into another application.</value></data>
+  <data name="Après le dernier média, recommence la file." xml:space="preserve"><value>After the last media, starts the queue again.</value></data>
+  <data name="Audio : clic gauche ou molette pour changer, clic droit pour la liste" xml:space="preserve"><value>Audio: left-click or use the wheel to change, right-click for the list</value></data>
+  <data name="Audio (A) : clic gauche ou molette pour changer, clic droit pour la liste" xml:space="preserve"><value>Audio (A): left-click or use the wheel to change, right-click for the list</value></data>
+  <data name="Autorise les messages temporaires, titres et informations OSD." xml:space="preserve"><value>Allows temporary messages, titles and OSD information.</value></data>
+  <data name="Avancer : rétablir le placement annulé" xml:space="preserve"><value>Redo: restore the undone placement</value></data>
+  <data name="Avancer (→)" xml:space="preserve"><value>Forward (→)</value></data>
+  <data name="Barre compacte et curseur flottant après la dernière utilisation de la molette." xml:space="preserve"><value>Compact bar and floating cursor after the last wheel use.</value></data>
+  <data name="Barre inférieure" xml:space="preserve"><value>Bottom bar</value></data>
+  <data name="Barre supérieure" xml:space="preserve"><value>Top bar</value></data>
+  <data name="Bascule automatiquement vers un casque ou une nouvelle sortie audio détectée." xml:space="preserve"><value>Automatically switches to a headset or newly detected audio output.</value></data>
+  <data name="Capture d’écran (S)" xml:space="preserve"><value>Screenshot (S)</value></data>
+  <data name="Ces fonctions resteront complémentaires : la priorité de Fuze demeure une lecture fluide et fiable." xml:space="preserve"><value>These features remain complementary: Fuze’s priority is smooth and reliable playback.</value></data>
+  <data name="Ces options contrôlent le démarrage, la reprise et la stabilité de la lecture." xml:space="preserve"><value>These options control startup, resume and playback stability.</value></data>
+  <data name="Ces réglages sont partagés avec les choix rapides de l’onglet Audio." xml:space="preserve"><value>These settings are shared with the quick choices in the Audio tab.</value></data>
+  <data name="Chapitre précédent, puis média précédent (P)" xml:space="preserve"><value>Previous chapter, then previous media (P)</value></data>
+  <data name="Chapitre suivant, puis média suivant (N)" xml:space="preserve"><value>Next chapter, then next media (N)</value></data>
+  <data name="Chaque nouveau média démarre sans audio. Un choix manuel reste possible pendant la lecture." xml:space="preserve"><value>Every new media starts without audio. A manual choice remains available during playback.</value></data>
+  <data name="Chaque nouveau média démarre sans sous-titres. Un choix manuel reste possible pendant la lecture." xml:space="preserve"><value>Every new media starts without subtitles. A manual choice remains available during playback.</value></data>
+  <data name="Choisissez l’apparence et le comportement du contrôle de volume." xml:space="preserve"><value>Choose the appearance and behavior of the volume control.</value></data>
+  <data name="Choisissez l’élément à modifier. Chaque élément conserve son propre style." xml:space="preserve"><value>Choose the element to edit. Each element keeps its own style.</value></data>
+  <data name="Choisissez l’interface utilisée par la barre inférieure ou créez-en une nouvelle à partir d’un modèle existant." xml:space="preserve"><value>Choose the interface used by the bottom bar or create a new one from an existing model.</value></data>
+  <data name="Choisissez les actions que la molette peut effectuer dans l’interface et au centre de la vidéo." xml:space="preserve"><value>Choose the actions the wheel can perform in the interface and at the center of the video.</value></data>
+  <data name="Choisissez un délai différent pour chaque barre (0,1 à 10 secondes)." xml:space="preserve"><value>Choose a different delay for each bar (0.1 to 10 seconds).</value></data>
+  <data name="Choisissez une commande présente sur la barre à garder au centre" xml:space="preserve"><value>Choose a command on the bar to keep centered</value></data>
+  <data name="Choisit l’écran sur lequel Fuze place la fenêtre avant de démarrer la vidéo." xml:space="preserve"><value>Chooses the screen where Fuze places the window before starting the video.</value></data>
+  <data name="Choisit une piste selon la langue et le titre intégrés au média." xml:space="preserve"><value>Chooses a track based on the language and title embedded in the media.</value></data>
+  <data name="Clic gauche : muet (M) • clic droit : options du volume" xml:space="preserve"><value>Left-click: mute (M) • right-click: volume options</value></data>
+  <data name="Clic gauche : temps restant ou durée totale" xml:space="preserve"><value>Left-click: remaining time or total duration</value></data>
+  <data name="Commandes actuellement attribuées à Fuze" xml:space="preserve"><value>Commands currently assigned to Fuze</value></data>
+  <data name="Confie la décompression des images au GPU (H.264, H.265, AV1, etc.) pour réduire l’utilisation du processeur. Peut améliorer la fluidité, mais certains pilotes ou formats peuvent être incompatibles : désactivez cette option si vous voyez des artefacts ou des plantages." xml:space="preserve"><value>Delegates image decoding to the GPU (H.264, H.265, AV1, etc.) to reduce CPU use. It can improve smoothness, but some drivers or formats may be incompatible; disable it if you see artifacts or crashes.</value></data>
+  <data name="Configure l’état initial des commandes aléatoire et répétition. Les boutons restent accessibles dans la barre." xml:space="preserve"><value>Configures the initial state of shuffle and repeat. The buttons remain available in the bar.</value></data>
+  <data name="Contrôle les fonctions d’économie d’énergie pendant la lecture." xml:space="preserve"><value>Controls power-saving functions during playback.</value></data>
+  <data name="Copier aussi dans le presse-papiers" xml:space="preserve"><value>Also copy to the clipboard</value></data>
+  <data name="Crée une nouvelle interface à partir du modèle sélectionné" xml:space="preserve"><value>Creates a new interface from the selected model</value></data>
+  <data name="Créer un autre modèle à partir de cette mise en page" xml:space="preserve"><value>Create another model from this layout</value></data>
+  <data name="Créer un nouveau modèle" xml:space="preserve"><value>Create a new model</value></data>
+  <data name="Créer une nouvelle interface" xml:space="preserve"><value>Create a new interface</value></data>
+  <data name="Dans la zone centrale de la vidéo (une seule action à la fois) :" xml:space="preserve"><value>In the center area of the video (one action at a time):</value></data>
+  <data name="Décalage vertical de la ligne centrale (-34 à 18 pixels)" xml:space="preserve"><value>Vertical offset of the center line (-34 to 18 pixels)</value></data>
+  <data name="Décodage matériel" xml:space="preserve"><value>Hardware decoding</value></data>
+  <data name="Défaut : 15 s" xml:space="preserve"><value>Default: 15 s</value></data>
+  <data name="Défaut : 250 ms" xml:space="preserve"><value>Default: 250 ms</value></data>
+  <data name="Défaut : 3 000 ms" xml:space="preserve"><value>Default: 3,000 ms</value></data>
+  <data name="Défaut : 30 s" xml:space="preserve"><value>Default: 30 s</value></data>
+  <data name="Défiler d’une ligne vers le bas" xml:space="preserve"><value>Scroll down one line</value></data>
+  <data name="Défiler d’une ligne vers le haut" xml:space="preserve"><value>Scroll up one line</value></data>
+  <data name="Défiler d’une page vers le bas" xml:space="preserve"><value>Scroll down one page</value></data>
+  <data name="Défiler d’une page vers le haut" xml:space="preserve"><value>Scroll up one page</value></data>
+  <data name="Définit la valeur utilisée par l’option Zoom personnalisé dans le menu Vidéo." xml:space="preserve"><value>Sets the value used by Custom zoom in the Video menu.</value></data>
+  <data name="Définit le format utilisé par l’option Personnaliser dans le menu Format d’image." xml:space="preserve"><value>Sets the format used by Custom in the Aspect ratio menu.</value></data>
+  <data name="Délai après le départ de la souris (0,1 à 10 secondes)." xml:space="preserve"><value>Delay after the pointer leaves (0.1 to 10 seconds).</value></data>
+  <data name="Délai avant affichage" xml:space="preserve"><value>Delay before showing</value></data>
+  <data name="Délai du moniteur de souris" xml:space="preserve"><value>Mouse monitor delay</value></data>
+  <data name="Démarre immédiatement le fichier ouvert." xml:space="preserve"><value>Starts the opened file immediately.</value></data>
+  <data name="Déplace la barre horizontale centrale en pixels; les valeurs négatives la remontent." xml:space="preserve"><value>Moves the center horizontal bar in pixels; negative values move it upward.</value></data>
+  <data name="Déplacer l’élément sélectionné vers la ligne de droite" xml:space="preserve"><value>Move the selected item to the right row</value></data>
+  <data name="Déplacer l’élément sélectionné vers la ligne de gauche" xml:space="preserve"><value>Move the selected item to the left row</value></data>
+  <data name="Désactive les petites descriptions qui apparaissent lorsque la souris reste au-dessus d’un élément." xml:space="preserve"><value>Disables the small descriptions that appear when the pointer rests over an item.</value></data>
+  <data name="Descendre l’élément sélectionné dans sa ligne" xml:space="preserve"><value>Move the selected item down in its row</value></data>
+  <data name="Désentrelacement" xml:space="preserve"><value>Deinterlacing</value></data>
+  <data name="Double-cliquez pour changer. Appuyez sur Échap ici pour désattribuer." xml:space="preserve"><value>Double-click to change. Press Escape here to unassign.</value></data>
+  <data name="Durée d’affichage" xml:space="preserve"><value>Display duration</value></data>
+  <data name="Durée utilisée par les boutons de retour et d’avance." xml:space="preserve"><value>Duration used by the rewind and forward buttons.</value></data>
+  <data name="Écrivez un ratio comme 16:9 ou 21:9." xml:space="preserve"><value>Enter a ratio such as 16:9 or 21:9.</value></data>
+  <data name="Empêcher la mise en veille pendant la lecture" xml:space="preserve"><value>Prevent sleep during playback</value></data>
+  <data name="Emplacement et nom utilisés par le bouton de capture et le raccourci S." xml:space="preserve"><value>Location and name used by the screenshot button and S shortcut.</value></data>
+  <data name="Enregistre les erreurs et événements utiles au dépannage." xml:space="preserve"><value>Records errors and events useful for troubleshooting.</value></data>
+  <data name="Enregistre une image de la vidéo selon les paramètres de capture." xml:space="preserve"><value>Saves an image from the video according to the capture settings.</value></data>
+  <data name="Enregistrer ce modèle" xml:space="preserve"><value>Save this model</value></data>
+  <data name="Enregistrer la file des médias" xml:space="preserve"><value>Save the media queue</value></data>
+  <data name="Enregistrer les changements dans ce modèle" xml:space="preserve"><value>Save changes to this model</value></data>
+  <data name="Entrez la position exacte dans le média." xml:space="preserve"><value>Enter the exact position in the media.</value></data>
+  <data name="Entrez un multiplicateur compris entre 0,05× et 10,00×." xml:space="preserve"><value>Enter a multiplier between 0.05× and 10.00×.</value></data>
+  <data name="Entrez un nouveau nom pour créer cette interface." xml:space="preserve"><value>Enter a new name to create this interface.</value></data>
+  <data name="Espacement automatique entre les éléments (0 à 24)" xml:space="preserve"><value>Automatic spacing between items (0 to 24)</value></data>
+  <data name="Exemple de sous-titre" xml:space="preserve"><value>Subtitle example</value></data>
+  <data name="Exporter les paramètres…" xml:space="preserve"><value>Export settings…</value></data>
+  <data name="Favorise les pistes pour malentendants lorsqu’une sélection automatique est active." xml:space="preserve"><value>Favors tracks for the hearing-impaired when automatic selection is active.</value></data>
+  <data name="Fermer Fuse ?" xml:space="preserve"><value>Close Fuze?</value></data>
+  <data name="File des médias (Q)" xml:space="preserve"><value>Media queue (Q)</value></data>
+  <data name="Format d’image" xml:space="preserve"><value>Aspect ratio</value></data>
+  <data name="Format d’image personnalisé" xml:space="preserve"><value>Custom aspect ratio</value></data>
+  <data name="Format personnalisé" xml:space="preserve"><value>Custom format</value></data>
+  <data name="Français de France (VFF)" xml:space="preserve"><value>French (France) (VFF)</value></data>
+  <data name="Français québécois (VFQ)" xml:space="preserve"><value>French (Quebec) (VFQ)</value></data>
+  <data name="Fuze est un lecteur multimédia libre en développement. Son objectif principal est de fournir une lecture locale rapide, stable et agréable, tout en ajoutant le plus de fonctionnalités utiles à l’utilisateur." xml:space="preserve"><value>Fuze is a free media player in development. Its main goal is to provide fast, stable and pleasant local playback while adding useful features for users.</value></data>
+  <data name="Fuze laisse alors Windows gérer Volume +, Volume − et Muet." xml:space="preserve"><value>Fuze then lets Windows handle Volume +, Volume − and Mute.</value></data>
+  <data name="Garde la fenêtre Fuze devant les autres fenêtres, même lorsqu’une autre application devient active." xml:space="preserve"><value>Keeps the Fuze window above other windows, even when another application becomes active.</value></data>
+  <data name="Garde une commande fixe au centre et place les autres autour d’elle." xml:space="preserve"><value>Keeps one command fixed at the center and places the others around it.</value></data>
+  <data name="Garde une réserve de données pour limiter les interruptions." xml:space="preserve"><value>Keeps a data reserve to limit interruptions.</value></data>
+  <data name="Ignorer la question à la fin" xml:space="preserve"><value>Skip the prompt at the end</value></data>
+  <data name="Ignorer la question au début" xml:space="preserve"><value>Skip the prompt at the beginning</value></data>
+  <data name="Incruste le nom du média directement dans l’image au début de la lecture." xml:space="preserve"><value>Overlays the media name directly on the image at the start of playback.</value></data>
+  <data name="La barre supérieure et la barre inférieure peuvent se rétracter automatiquement et rester accessibles au mouvement de la souris." xml:space="preserve"><value>The top and bottom bars can hide automatically and remain accessible when the pointer moves.</value></data>
+  <data name="La bibliothèque native libmpv-2.dll est chargée depuis le dossier de Fuze et accompagne la publication de l’application." xml:space="preserve"><value>The native libmpv-2.dll library is loaded from the Fuze folder and ships with the application.</value></data>
+  <data name="La molette au centre de la vidéo avance ou recule dans la vidéo." xml:space="preserve"><value>The wheel at the center of the video seeks forward or backward.</value></data>
+  <data name="La molette au centre de la vidéo règle le volume." xml:space="preserve"><value>The wheel at the center of the video adjusts the volume.</value></data>
+  <data name="Lance automatiquement le média suivant à la fin du média actuel." xml:space="preserve"><value>Automatically starts the next media when the current media ends.</value></data>
+  <data name="LANGUE DU SYSTÈME" xml:space="preserve"><value>SYSTEM LANGUAGE</value></data>
+  <data name="LANGUE PRÉFÉRÉE" xml:space="preserve"><value>PREFERRED LANGUAGE</value></data>
+  <data name="Largeur du nom du média, de 80 à 800 pixels" xml:space="preserve"><value>Media name width, 80 to 800 pixels</value></data>
+  <data name="Le changement du moteur est appliqué au prochain démarrage de Fuze." xml:space="preserve"><value>The engine change is applied the next time Fuze starts.</value></data>
+  <data name="Le modèle actif est appliqué à la barre dès l’enregistrement des paramètres." xml:space="preserve"><value>The active model is applied to the bar as soon as settings are saved.</value></data>
+  <data name="Le projet continuera d’évoluer après la version 1.0.0. Les prochaines améliorations envisagées concernent notamment l’édition vidéo, le découpage de fichiers, la conversion et un suivi de lecture plus complet." xml:space="preserve"><value>The project will continue to evolve after version 1.0.0. Planned improvements include video editing, file trimming, conversion and more complete playback tracking.</value></data>
+  <data name="Le projet est développé par ImWeLLaN et sera publié sur GitHub avec ses composants et avis de licence." xml:space="preserve"><value>The project is developed by ImWeLLaN and will be published on GitHub with its components and license notices.</value></data>
+  <data name="Le rendu reste sur l’élément sélectionné et se met à jour immédiatement." xml:space="preserve"><value>The preview stays on the selected item and updates immediately.</value></data>
+  <data name="Lecture / pause (Espace)" xml:space="preserve"><value>Play / pause (Space)</value></data>
+  <data name="Lecture aléatoire (H)" xml:space="preserve"><value>Shuffle (H)</value></data>
+  <data name="Lecture, progression, pistes, volume et écrou." xml:space="preserve"><value>Playback, progress, tracks, volume and gear.</value></data>
+  <data name="Les mises en page de la barre inférieure sont personnalisables : commandes visibles, ordre, espacement, position centrale et modèles enregistrés." xml:space="preserve"><value>Bottom bar layouts are customizable: visible commands, order, spacing, center position and saved models.</value></data>
+  <data name="Les préférences, l’historique, la file des médias et les mises en page sont conservés localement sur l’ordinateur." xml:space="preserve"><value>Preferences, history, media queue and layouts are stored locally on the computer.</value></data>
+  <data name="Les raccourcis clavier, la molette, le comportement des clics et les styles de volume sont configurables dans les paramètres." xml:space="preserve"><value>Keyboard shortcuts, wheel, click behavior and volume styles are configurable in Settings.</value></data>
+  <data name="Les raccourcis se modifient dans Paramètres › Raccourcis." xml:space="preserve"><value>Shortcuts are edited in Settings › Shortcuts.</value></data>
+  <data name="Lorsque le fichier actuel est le dernier du dossier, cherche le dossier vidéo frère suivant dans le dossier parent et lance son premier fichier." xml:space="preserve"><value>When the current file is the last in its folder, finds the next sibling video folder in the parent and starts its first file.</value></data>
+  <data name="Maintenir et déplacer" xml:space="preserve"><value>Click and drag</value></data>
+  <data name="Maintient le PC et l’écran actifs seulement pendant qu’un média joue. Le comportement normal revient en pause ou à l’arrêt." xml:space="preserve"><value>Keeps the PC and display awake only while media is playing. Normal behavior returns when paused or stopped.</value></data>
+  <data name="Masque la ligne centrale orange de la barre inférieure." xml:space="preserve"><value>Hides the orange center line of the bottom bar.</value></data>
+  <data name="Masque le pointeur après ce délai sans mouvement. Chaque mouvement réinitialise le délai; il ne s’écoule pas tant que la souris bouge." xml:space="preserve"><value>Hides the pointer after this delay without movement. Each movement resets the delay; it does not elapse while the mouse moves.</value></data>
+  <data name="Masque les repères verticaux de la barre inférieure (25 %, 50 % et 75 %)." xml:space="preserve"><value>Hides the vertical guides of the bottom bar (25%, 50% and 75%).</value></data>
+  <data name="Masquer ou afficher les lignes de repère verticales" xml:space="preserve"><value>Hide or show the vertical guide lines</value></data>
+  <data name="Mélange l’ordre de lecture des médias de la file." xml:space="preserve"><value>Shuffles the playback order of queued media.</value></data>
+  <data name="Mémoriser les réglages de chaque média" xml:space="preserve"><value>Remember settings for each media</value></data>
+  <data name="Merci d’utiliser Fuze et de contribuer à son amélioration." xml:space="preserve"><value>Thank you for using Fuze and helping improve it.</value></data>
+  <data name="Mes priorités personnalisées" xml:space="preserve"><value>My custom priorities</value></data>
+  <data name="section_bottom_bar_layout" xml:space="preserve"><value>BOTTOM BAR LAYOUT</value></data>
+  <data name="MODÈLE ENREGISTRÉ" xml:space="preserve"><value>SAVED MODEL</value></data>
+  <data name="Modifier le sous-titre" xml:space="preserve"><value>Edit subtitle</value></data>
+  <data name="Monter l’élément sélectionné dans sa ligne" xml:space="preserve"><value>Move the selected item up in its row</value></data>
+  <data name="Moteur multimédia" xml:space="preserve"><value>Media engine</value></data>
+  <data name="Muet (M)" xml:space="preserve"><value>Mute (M)</value></data>
+  <data name="Nom du sous-dossier créé" xml:space="preserve"><value>Created subfolder name</value></data>
+  <data name="Nombre de dossiers parents affichés avant le média (0 = nom du média seulement)." xml:space="preserve"><value>Number of parent folders shown before the media (0 = media name only).</value></data>
+  <data name="Nombre de dossiers parents affichés dans le chemin de chaque média (0 = nom du média seulement)." xml:space="preserve"><value>Number of parent folders shown in each media path (0 = media name only).</value></data>
+  <data name="Numérotation séquentielle" xml:space="preserve"><value>Sequential numbering</value></data>
+  <data name="Onglets Média, Lecture, Audio, Vidéo et Outils." xml:space="preserve"><value>Media, Playback, Audio, Video and Tools tabs.</value></data>
+  <data name="ou utilisez Média  ›  Ouvrir des fichiers" xml:space="preserve"><value>or use Media  ›  Open files</value></data>
+  <data name="Ouverture de la vidéo…" xml:space="preserve"><value>Opening video…</value></data>
+  <data name="OUVERTURE EN PLEIN ÉCRAN" xml:space="preserve"><value>OPEN IN FULLSCREEN</value></data>
+  <data name="Ouvre les réglages pour synchroniser les pistes audio, vidéo et sous-titres." xml:space="preserve"><value>Opens settings to synchronize audio, video and subtitle tracks.</value></data>
+  <data name="Ouvrir un flux réseau" xml:space="preserve"><value>Open network stream</value></data>
+  <data name="Passe automatiquement en plein écran lorsqu’un fichier vidéo démarre." xml:space="preserve"><value>Automatically switches to fullscreen when a video file starts.</value></data>
+  <data name="PÉRIPHÉRIQUE D’AFFICHAGE" xml:space="preserve"><value>DISPLAY DEVICE</value></data>
+  <data name="section_output_device" xml:space="preserve"><value>OUTPUT DEVICE</value></data>
+  <data name="Peut choisir automatiquement une piste intégrée selon sa langue, sa région et son titre." xml:space="preserve"><value>Can automatically choose an embedded track based on its language, region and title.</value></data>
+  <data name="Plein écran (F)" xml:space="preserve"><value>Fullscreen (F)</value></data>
+  <data name="Point d’ancrage" xml:space="preserve"><value>Anchor point</value></data>
+  <data name="Précédent et Suivant changent d’abord de chapitre, puis de média." xml:space="preserve"><value>Previous and Next change chapter first, then media.</value></data>
+  <data name="Préférences de sortie, pistes, canaux et traitements audio." xml:space="preserve"><value>Output, track, channel and audio processing preferences.</value></data>
+  <data name="Préfixe ou suffixe" xml:space="preserve"><value>Prefix or suffix</value></data>
+  <data name="Prépare automatiquement les fichiers suivants et peut continuer vers le dossier frère suivant. Chaque option ci-dessous est indépendante." xml:space="preserve"><value>Automatically prepares the next files and can continue to the next sibling folder. Each option below is independent.</value></data>
+  <data name="PRIVILÉGIER LES SOUS-TITRES SDH / CC" xml:space="preserve"><value>PREFER SDH / CC SUBTITLES</value></data>
+  <data name="Recherche automatiquement dans le dossier du média les fichiers de sous-titres au nom semblable (.srt, .ass, .ssa, .vtt, .sub et .idx)." xml:space="preserve"><value>Automatically searches the media folder for similarly named subtitle files (.srt, .ass, .ssa, .vtt, .sub and .idx).</value></data>
+  <data name="Rechercher dans la file des médias" xml:space="preserve"><value>Search the media queue</value></data>
+  <data name="Rechercher par nom, description ou touche" xml:space="preserve"><value>Search by name, description or key</value></data>
+  <data name="Recherchez une commande, puis double-cliquez sur sa touche pour la modifier." xml:space="preserve"><value>Search for a command, then double-click its key to edit it.</value></data>
+  <data name="Reculer (←)" xml:space="preserve"><value>Rewind (←)</value></data>
+  <data name="Réduit les écarts de volume entre les différents fichiers vidéo." xml:space="preserve"><value>Reduces volume differences between video files.</value></data>
+  <data name="Réduit les interruptions en préparant les données et en déléguant le décodage aux ressources disponibles de l’ordinateur." xml:space="preserve"><value>Reduces interruptions by preparing data and delegating decoding to the computer’s available resources.</value></data>
+  <data name="Referme les espaces lorsqu’un bouton prévu par le modèle est désactivé : centre vers le milieu et côtés vers les bords." xml:space="preserve"><value>Closes gaps when a model button is disabled: the center moves inward and the sides move toward the edges.</value></data>
+  <data name="Réglez la fenêtre, le pointeur et les informations affichées à l’écran." xml:space="preserve"><value>Configure the window, pointer and on-screen information.</value></data>
+  <data name="Réglez la vitesse de défilement automatique lorsque vous déplacez un média vers le bord de la file." xml:space="preserve"><value>Configure automatic scrolling speed when moving media toward the queue edge.</value></data>
+  <data name="Restaure les pistes choisies, la vitesse, le zoom et la synchronisation lorsque ce même fichier est rouvert." xml:space="preserve"><value>Restores the selected tracks, speed, zoom and synchronization when the same file is reopened.</value></data>
+  <data name="Restaure tous les raccourcis par défaut de Fuze." xml:space="preserve"><value>Restores all Fuze default shortcuts.</value></data>
+  <data name="Réinitialiser les raccourcis ?" xml:space="preserve"><value>Reset shortcuts?</value></data>
+  <data name="Cette action est irréversible. Êtes-vous sûr de vouloir réinitialiser tous les paramètres de Fuze?" xml:space="preserve"><value>This action cannot be undone. Are you sure you want to reset all Fuze settings?</value></data>
+  <data name="Cette action est irréversible. Êtes-vous sûr de vouloir réinitialiser tous les raccourcis de Fuze?" xml:space="preserve"><value>This action cannot be undone. Are you sure you want to reset all Fuze shortcuts?</value></data>
+  <data name="Retire le séparateur central et transforme chaque compteur en item indépendant." xml:space="preserve"><value>Removes the center separator and turns each counter into an independent item.</value></data>
+  <data name="Retirer la commande sélectionnée de la barre" xml:space="preserve"><value>Remove the selected command from the bar</value></data>
+  <data name="Retour : revenir au placement précédent" xml:space="preserve"><value>Undo: return to the previous placement</value></data>
+  <data name="S’applique surtout aux fichiers de sous-titres externes sans information Unicode fiable." xml:space="preserve"><value>Applies mainly to external subtitle files without reliable Unicode information.</value></data>
+  <data name="Saisissez la largeur et la hauteur du format, par exemple 16:9 ou 21:9." xml:space="preserve"><value>Enter the aspect ratio width and height, for example 16:9 or 21:9.</value></data>
+  <data name="Saisissez le titre exact ou une partie du titre. Maintenez la poignée ≡ pour changer l’ordre." xml:space="preserve"><value>Enter the exact title or part of it. Hold the ≡ handle to change the order.</value></data>
+  <data name="Sélection automatique" xml:space="preserve"><value>Automatic selection</value></data>
+  <data name="Sélectionnez ce mode dans Périphérique de sortie pour utiliser automatiquement la sortie audio associée à l’écran actif." xml:space="preserve"><value>Select this mode in Output device to use the audio output associated with the active display.</value></data>
+  <data name="Sélectionnez d’abord l’élément à modifier dans la section Apparence." xml:space="preserve"><value>First select the item to edit in the Appearance section.</value></data>
+  <data name="Sélectionnez le titre ou les sous-titres pour activer les réglages." xml:space="preserve"><value>Select the title or subtitles to enable their settings.</value></data>
+  <data name="Sélectionnez une commande disponible" xml:space="preserve"><value>Select an available command</value></data>
+  <data name="Sélectionnez une interface enregistrée pour l’appliquer à la barre inférieure." xml:space="preserve"><value>Select a saved interface to apply it to the bottom bar.</value></data>
+  <data name="Séparer ou regrouper les deux compteurs de temps" xml:space="preserve"><value>Separate or group the two time counters</value></data>
+  <data name="Sinon, Fuze reprend le dernier volume utilisé." xml:space="preserve"><value>Otherwise, Fuze resumes the last volume used.</value></data>
+  <data name="SORTIE VIDÉO" xml:space="preserve"><value>VIDEO OUTPUT</value></data>
+  <data name="Souhaites-tu reprendre à cette position ou recommencer au début ?" xml:space="preserve"><value>Would you like to resume at this position or start over?</value></data>
+  <data name="Souris : déplacer • molette : zoomer • clic droit : recentrer." xml:space="preserve"><value>Mouse: move • wheel: zoom • right-click: recenter.</value></data>
+  <data name="Sous-titre • Bas centre" xml:space="preserve"><value>Subtitle • Bottom center</value></data>
+  <data name="Sous-titres : clic gauche ou molette pour changer, clic droit pour la liste" xml:space="preserve"><value>Subtitles: left-click or use the wheel to change, right-click for the list</value></data>
+  <data name="Sous-titres (T) : clic gauche ou molette pour changer, clic droit pour la liste" xml:space="preserve"><value>Subtitles (T): left-click or use the wheel to change, right-click for the list</value></data>
+  <data name="Suggère Fuze pour tous les formats compatibles dans « Ouvrir avec » de l’Explorateur Windows. Cette option ne définit pas Fuze automatiquement comme application par défaut : Windows vous demandera de confirmer ce choix." xml:space="preserve"><value>Suggests Fuze for all compatible formats in Windows Explorer’s “Open with”. This option does not make Fuze the default app automatically: Windows will ask you to confirm.</value></data>
+  <data name="Supprime l’interface personnalisée sélectionnée. Les modèles intégrés à Fuse sont protégés." xml:space="preserve"><value>Deletes the selected custom interface. Built-in Fuze models are protected.</value></data>
+  <data name="Supprime les médias récents plus vieux que la durée choisie. Entrez 0 pour une conservation illimitée." xml:space="preserve"><value>Deletes recent media older than the chosen duration. Enter 0 for unlimited retention.</value></data>
+  <data name="Supprimer le modèle personnalisé" xml:space="preserve"><value>Delete custom model</value></data>
+  <data name="Supprimer le modèle personnalisé sélectionné" xml:space="preserve"><value>Delete the selected custom model</value></data>
+  <data name="Synchronisation des pistes (Y)" xml:space="preserve"><value>Track synchronization (Y)</value></data>
+  <data name="Titre au démarrage, langue, encodage, apparence et position." xml:space="preserve"><value>Startup title, language, encoding, appearance and position.</value></data>
+  <data name="Titres de piste recherchés" xml:space="preserve"><value>Searched track titles</value></data>
+  <data name="Touches du clavier, molette et boutons multimédias." xml:space="preserve"><value>Keyboard keys, wheel and media buttons.</value></data>
+  <data name="Toujours au-dessus" xml:space="preserve"><value>Always on top</value></data>
+  <data name="Toujours rétablir le volume au démarrage" xml:space="preserve"><value>Always restore volume at startup</value></data>
+  <data name="Tous les formats compatibles sont proposés automatiquement à Windows." xml:space="preserve"><value>All compatible formats are automatically offered to Windows.</value></data>
+  <data name="Transforme une source entrelacée (TV, DVD ou ancien caméscope) en images progressives pour supprimer les effets de peigne et les lignes visibles en mouvement. Sans effet sur une vidéo déjà progressive et peut demander un peu plus de ressources." xml:space="preserve"><value>Converts an interlaced source (TV, DVD or older camcorder) into progressive frames to remove combing and visible motion lines. It has no effect on progressive video and may use more resources.</value></data>
+  <data name="Transmet Dolby ou DTS directement à un appareil compatible. Les canaux et traitements audio sont alors désactivés." xml:space="preserve"><value>Passes Dolby or DTS directly to a compatible device. Audio channels and processing are then disabled.</value></data>
+  <data name="Triangle, barre compacte, curseur flottant ou barre horizontale." xml:space="preserve"><value>Triangle, compact bar, floating cursor or horizontal bar.</value></data>
+  <data name="Un double-clic dans la zone libre bascule le plein écran." xml:space="preserve"><value>A double-click in the free area toggles fullscreen.</value></data>
+  <data name="Une valeur négative fait arriver la piste plus tôt." xml:space="preserve"><value>A negative value makes the track arrive earlier.</value></data>
+  <data name="Utilise 0001, 0002… au lieu de la date et de l’heure." xml:space="preserve"><value>Uses 0001, 0002… instead of the date and time.</value></data>
+  <data name="Utilise la sortie WASAPI en accès direct : Fuze contourne le mélangeur Windows et envoie le signal au périphérique avec moins de traitements et parfois moins de latence. Pendant la lecture, les autres applications peuvent ne plus pouvoir utiliser ce périphérique; si le matériel ne prend pas ce mode en charge, la sortie normale est utilisée." xml:space="preserve"><value>Uses direct WASAPI output: Fuze bypasses the Windows mixer and sends the signal to the device with less processing and sometimes lower latency. During playback, other apps may no longer be able to use this device; if unsupported, normal output is used.</value></data>
+  <data name="Utilise le titre inscrit dans les métadonnées; sinon, conserve le nom du fichier." xml:space="preserve"><value>Uses the title stored in metadata; otherwise keeps the file name.</value></data>
+  <data name="Valeur de 1 à 100; une valeur plus élevée fait défiler la file plus rapidement." xml:space="preserve"><value>Value from 1 to 100; a higher value scrolls the queue faster.</value></data>
+  <data name="Valeur négative : audio avancé. Valeur positive : audio retardé." xml:space="preserve"><value>Negative value: audio earlier. Positive value: audio later.</value></data>
+  <data name="Vitesse ([ et ])" xml:space="preserve"><value>Speed ([ and ])</value></data>
+  <data name="Vitesse (V, [ et ])" xml:space="preserve"><value>Speed (V, [ and ])</value></data>
+  <data name="Vitesse de lecture personnalisée" xml:space="preserve"><value>Custom playback speed</value></data>
+  <data name="Volume : molette pour régler • clic droit : périphériques" xml:space="preserve"><value>Volume: wheel to adjust • right-click: devices</value></data>
+  <data name="Windows GDI / logiciel (WARP)" xml:space="preserve"><value>Windows GDI / software (WARP)</value></data>
+  <data name="ZOOM VIDÉO" xml:space="preserve"><value>VIDEO ZOOM</value></data>
+  <data name="Zoom vidéo personnalisé" xml:space="preserve"><value>Custom video zoom</value></data>
+  <data name="ACTIVITÉ DU PC" xml:space="preserve"><value>PC ACTIVITY</value></data>
+  <data name="Afficher les épisodes suivants dans la file" xml:space="preserve"><value>Show upcoming episodes in the queue</value></data>
+  <data name="Aller à un temps spécifique" xml:space="preserve"><value>Go to a specific time</value></data>
+  <data name="Aucun raccourci ne correspond à cette recherche." xml:space="preserve"><value>No shortcut matches this search.</value></data>
+  <data name="Choisissez la base de votre nouvelle interface. Le modèle original ne sera jamais modifié." xml:space="preserve"><value>Choose the base for your new interface. The original model will never be modified.</value></data>
+  <data name="Collez une adresse HTTP, HTTPS, RTSP, RTP ou autre URL compatible VLC." xml:space="preserve"><value>Paste an HTTP, HTTPS, RTSP, RTP or other VLC-compatible URL.</value></data>
+  <data name="Déplacement activé" xml:space="preserve"><value>Panning enabled</value></data>
+  <data name="Déverrouiller" xml:space="preserve"><value>Unlock</value></data>
+  <data name="Direct3D 9 (ANGLE, compatibilité)" xml:space="preserve"><value>Direct3D 9 (ANGLE, compatibility)</value></data>
+  <data name="Épaisseur du contour" xml:space="preserve"><value>Outline thickness</value></data>
+  <data name="Exportez vos réglages Fuze dans un fichier JSON ou importez-les sur un autre poste. La file, l’historique et la reprise en cours restent privés à cet ordinateur." xml:space="preserve"><value>Export your Fuze settings to a JSON file or import them on another computer. The queue, history and current resume data remain private to this computer.</value></data>
+  <data name="Fuze s’appuie sur libmpv, le moteur qui assure le décodage, la synchronisation et le rendu vidéo." xml:space="preserve"><value>Fuze uses libmpv for decoding, synchronization and video rendering.</value></data>
+  <data name="Importer les paramètres…" xml:space="preserve"><value>Import settings…</value></data>
+  <data name="INFORMATIONS SUPPLÉMENTAIRES SUR LE MÉDIA" xml:space="preserve"><value>ADDITIONAL MEDIA INFORMATION</value></data>
+  <data name="Intégrer la liste audio" xml:space="preserve"><value>Include the audio list</value></data>
+  <data name="Intégrer la liste des sous-titres" xml:space="preserve"><value>Include the subtitle list</value></data>
+  <data name="L’item tenu passe par-dessus les autres; ils se déplacent seulement au relâchement." xml:space="preserve"><value>The held item passes over the others; they move only when released.</value></data>
+  <data name="Le rendu GPU utilise la pile gpu-next avec une sortie Direct3D 11 et un décodage matériel automatique sécurisé lorsque le système le permet." xml:space="preserve"><value>GPU rendering uses the gpu-next stack with Direct3D 11 output and safe automatic hardware decoding when supported.</value></data>
+  <data name="Les avis de copyright et les textes de licence sont installés avec Fuze dans les dossiers Licenses et THIRD-PARTY-NOTICES.txt." xml:space="preserve"><value>Copyright notices and license texts are installed with Fuze in the Licenses folder and THIRD-PARTY-NOTICES.txt.</value></data>
+  <data name="Les icônes de drapeaux proviennent de flag-icons et sont distribuées sous licence MIT." xml:space="preserve"><value>Flag icons come from flag-icons and are distributed under the MIT license.</value></data>
+  <data name="Média suivant (N)" xml:space="preserve"><value>Next media (N)</value></data>
+  <data name="mpv / libmpv est distribué sous la licence GNU GPL, version 2 ou ultérieure (GPL-2.0-or-later). Les textes de licence et les avis de copyright sont fournis avec Fuze." xml:space="preserve"><value>mpv / libmpv is distributed under the GNU GPL, version 2 or later (GPL-2.0-or-later). License texts and copyright notices are provided with Fuze.</value></data>
+  <data name="Nom du modèle de barre" xml:space="preserve"><value>Bar model name</value></data>
+  <data name="Réduire" xml:space="preserve"><value>Minimize</value></data>
+  <data name="RÉINITIALISER LES RACCOURCIS" xml:space="preserve"><value>RESET SHORTCUTS</value></data>
+  <data name="Relit automatiquement le média en cours lorsqu’il se termine." xml:space="preserve"><value>Automatically replays the current media when it ends.</value></data>
+  <data name="Remplace l’information condensée du menu Média par l’analyse détaillée. Un seul des deux choix est affiché." xml:space="preserve"><value>Replaces the condensed Media menu information with the detailed analysis. Only one of the two choices is shown.</value></data>
+  <data name="Rendu logiciel Windows de secours; libmpv moderne utilise WARP plutôt que GDI." xml:space="preserve"><value>Windows fallback software rendering; modern libmpv uses WARP instead of GDI.</value></data>
+  <data name="Repère le prochain fichier vidéo du même dossier dans l’ordre alphanumérique, le prépare environ 15 secondes avant la fin et le lance automatiquement." xml:space="preserve"><value>Finds the next video file in the same folder in alphanumeric order, prepares it about 15 seconds before the end and starts it automatically.</value></data>
+  <data name="Répéter le média actuel (R)" xml:space="preserve"><value>Repeat current media (R)</value></data>
+  <data name="Replie toujours les deux barres au lancement. Activé, l’écrou du bas permet d’ouvrir la barre supérieure; désactivé, le survol du bord la révèle et la flèche peut ensuite la maintenir ouverte." xml:space="preserve"><value>Always collapses both bars at launch. When enabled, the bottom gear opens the top bar; when disabled, hovering the edge reveals it and the arrow can keep it open.</value></data>
+  <data name="Reprend chaque fichier à son dernier emplacement." xml:space="preserve"><value>Resumes each file at its last position.</value></data>
+  <data name="Signaler un problème : " xml:space="preserve"><value>Report a problem: </value></data>
+  <data name="Site web : " xml:space="preserve"><value>Website: </value></data>
+  <data name="SOUS-TITRES AU DÉMARRAGE" xml:space="preserve"><value>SUBTITLES AT STARTUP</value></data>
+  <data name="TITRE AU DÉMARRAGE" xml:space="preserve"><value>STARTUP TITLE</value></data>
+  <data name="Vider la liste des sous-titres" xml:space="preserve"><value>Clear the subtitle list</value></data>
+  <data name="Vitesse de défilement de la file" xml:space="preserve"><value>Queue scroll speed</value></data>
+  <data name="Zoom personnalisé" xml:space="preserve"><value>Custom zoom</value></data>
+  <data name="Impossible de lire ce média" xml:space="preserve"><value>Unable to play this media</value></data>
+  <data name="La lecture n’a pas pu démarrer" xml:space="preserve"><value>Playback could not start</value></data>
+  <data name="Aucun nouvel épisode à ajouter" xml:space="preserve"><value>No new episode to add</value></data>
+  <data name="Aucun disque prêt à être lu" xml:space="preserve"><value>No disc is ready to play</value></data>
+  <data name="La liste de lecture est vide" xml:space="preserve"><value>The playlist is empty</value></data>
+  <data name="Liste de lecture enregistrée" xml:space="preserve"><value>Playlist saved</value></data>
+  <data name="Impossible d’enregistrer la liste de lecture" xml:space="preserve"><value>Unable to save the playlist</value></data>
+  <data name="Cette liste ne contient aucun média accessible" xml:space="preserve"><value>This list contains no accessible media</value></data>
+  <data name="Impossible d’ouvrir la liste de lecture" xml:space="preserve"><value>Unable to open the playlist</value></data>
+  <data name="Aucun média ouvert" xml:space="preserve"><value>No media is open</value></data>
+  <data name="Média fermé" xml:space="preserve"><value>Media closed</value></data>
+  <data name="Lecture des informations du média…" xml:space="preserve"><value>Reading media information…</value></data>
+  <data name="Analyse complète du média…" xml:space="preserve"><value>Analyzing media completely…</value></data>
+  <data name="Aucun média reconnu" xml:space="preserve"><value>No recognized media</value></data>
+  <data name="Aucun chapitre précédent" xml:space="preserve"><value>No previous chapter</value></data>
+  <data name="Aucun chapitre suivant" xml:space="preserve"><value>No next chapter</value></data>
+  <data name="Aucun média précédent" xml:space="preserve"><value>No previous media</value></data>
+  <data name="Aucun média suivant" xml:space="preserve"><value>No next media</value></data>
+  <data name="Paramètres importés" xml:space="preserve"><value>Settings imported</value></data>
+  <data name="Lancez d’abord un média" xml:space="preserve"><value>Start a media file first</value></data>
+  <data name="Impossible de réinitialiser la synchronisation" xml:space="preserve"><value>Unable to reset synchronization</value></data>
+  <data name="Synchronisation réinitialisée" xml:space="preserve"><value>Synchronization reset</value></data>
+  <data name="Impossible de modifier le zoom" xml:space="preserve"><value>Unable to change the zoom</value></data>
+  <data name="Ouvre une interface pour saisir la largeur et la hauteur du format." xml:space="preserve"><value>Opens a dialog to enter the format width and height.</value></data>
+  <data name="Impossible de modifier le format d’image" xml:space="preserve"><value>Unable to change the aspect ratio</value></data>
+  <data name="Aucune vidéo ouverte" xml:space="preserve"><value>No video is open</value></data>
+  <data name="Impossible de changer la piste audio" xml:space="preserve"><value>Unable to change the audio track</value></data>
+  <data name="Impossible de changer la piste vidéo" xml:space="preserve"><value>Unable to change the video track</value></data>
+  <data name="Impossible de changer les sous-titres" xml:space="preserve"><value>Unable to change the subtitles</value></data>
+  <data name="Lancez d’abord une vidéo" xml:space="preserve"><value>Start a video first</value></data>
+  <data name="Aucune image à capturer" xml:space="preserve"><value>No image to capture</value></data>
+  <data name="Échec de la capture" xml:space="preserve"><value>Capture failed</value></data>
+  <data name="Impossible d’accéder au dossier de captures" xml:space="preserve"><value>Unable to access the capture folder</value></data>
+  <data name="Le premier média ne peut pas être supprimé" xml:space="preserve"><value>The first media cannot be deleted</value></data>
+  <data name="Les médias de la lecture augmentée sont fixes" xml:space="preserve"><value>Enhanced playback media is fixed</value></data>
+  <data name="File vidée, médias de la lecture augmentée conservés" xml:space="preserve"><value>Queue cleared; enhanced playback media preserved</value></data>
+  <data name="Image recentrée" xml:space="preserve"><value>Image recentered</value></data>
+  <data name="Déplacement de l’écran désactivé" xml:space="preserve"><value>Screen panning disabled</value></data>
+  <data name="Le chemin de Fuze est introuvable pour l’association des fichiers" xml:space="preserve"><value>The Fuze path cannot be found for file association</value></data>
+  <data name="Retirer ce type de fichier" xml:space="preserve"><value>Remove this file type</value></data>
+  <data name="Aucun écran détecté." xml:space="preserve"><value>No display detected.</value></data>
+  <data name="Ce périphérique n’est pas actuellement connecté" xml:space="preserve"><value>This device is not currently connected</value></data>
+  <data name="POSITION DU TITRE" xml:space="preserve"><value>TITLE POSITION</value></data>
+  <data name="POSITION FORCÉE DES SOUS-TITRES" xml:space="preserve"><value>FORCED SUBTITLE POSITION</value></data>
+  <data name="POSITION" xml:space="preserve"><value>POSITION</value></data>
+  <data name="Vous modifiez uniquement l’apparence et la position du titre." xml:space="preserve"><value>You are editing only the title’s appearance and position.</value></data>
+  <data name="Vous modifiez uniquement l’apparence et la position des sous-titres." xml:space="preserve"><value>You are editing only the subtitles’ appearance and position.</value></data>
+  <data name="L’apparence et la position sont appliquées au texte sélectionné." xml:space="preserve"><value>Appearance and position are applied to the selected text.</value></data>
+  <data name="Effacer les médias récents" xml:space="preserve"><value>Clear recent media</value></data>
+  <data name="Médias récents effacés" xml:space="preserve"><value>Recent media cleared</value></data>
+  <data name="Reculer de {0} secondes" xml:space="preserve"><value>Rewind {0} seconds</value></data>
+  <data name="Avancer de {0} secondes" xml:space="preserve"><value>Forward {0} seconds</value></data>
+  <data name="Utilise automatiquement le périphérique associé à l’écran actif" xml:space="preserve"><value>Automatically uses the device associated with the active display</value></data>
+  <data name="Suit automatiquement le périphérique choisi dans Windows" xml:space="preserve"><value>Automatically follows the device selected in Windows</value></data>
+  <data name="Aucun périphérique détecté" xml:space="preserve"><value>No device detected</value></data>
+  <data name="Aucun autre périphérique détecté" xml:space="preserve"><value>No other device detected</value></data>
+  <data name="Définir une vitesse personnalisée…" xml:space="preserve"><value>Set a custom speed…</value></data>
+  <data name="Ajouter un fichier de sous-titres…" xml:space="preserve"><value>Add a subtitle file…</value></data>
+  <data name="Ouvre une interface pour saisir une valeur de 50 à 1 000 %." xml:space="preserve"><value>Opens a dialog to enter a value from 50 to 1,000%.</value></data>
+  <data name="Personnaliser… ({0} %)" xml:space="preserve"><value>Custom… ({0}%)</value></data>
+  <data name="Désactivés" xml:space="preserve"><value>Disabled</value></data>
+  <data name="Sous-titres désactivés" xml:space="preserve"><value>Subtitles disabled</value></data>
+  <data name="Sous-titres • {0}" xml:space="preserve"><value>Subtitles • {0}</value></data>
+  <data name="Impossible d’utiliser ce périphérique audio" xml:space="preserve"><value>Unable to use this audio device</value></data>
+  <data name="Sortie audio • {0} (mode adaptatif désactivé)" xml:space="preserve"><value>Audio output • {0} (adaptive mode disabled)</value></data>
+  <data name="Sortie audio • {0}" xml:space="preserve"><value>Audio output • {0}</value></data>
+  <data name="Audio adaptatif activé" xml:space="preserve"><value>Adaptive audio enabled</value></data>
+  <data name="Audio adaptatif activé — sera appliqué à l’écran actif" xml:space="preserve"><value>Adaptive audio enabled — it will be applied to the active display</value></data>
+  <data name="Impossible d’appliquer ce mode audio" xml:space="preserve"><value>Unable to apply this audio mode</value></data>
+  <data name="Canaux audio • {0}" xml:space="preserve"><value>Audio channels • {0}</value></data>
+  <data name="Impossible d’appliquer ce traitement audio" xml:space="preserve"><value>Unable to apply this audio processing</value></data>
+  <data name="0 / 50 • priorité du haut vers le bas" xml:space="preserve"><value>0 / 50 • top-to-bottom priority</value></data>
+  <data name="0 élément" xml:space="preserve"><value>0 items</value></data>
+  <data name="• Chapitres, aperçu de la barre temporelle, titres de pistes et informations détaillées sur les médias." xml:space="preserve"><value>• Chapters, timeline preview, track titles and detailed media information.</value></data>
+  <data name="• Contrôles de volume, modes audio, vitesse de lecture, zoom, format d’image et capture d’écran." xml:space="preserve"><value>• Volume controls, audio modes, playback speed, zoom, aspect ratio and screenshots.</value></data>
+  <data name="• File des médias persistante, lecture augmentée, reprise de lecture et navigation naturelle entre chapitres et épisodes." xml:space="preserve"><value>• Persistent media queue, enhanced playback, resume and natural navigation between chapters and episodes.</value></data>
+  <data name="• Lecture de fichiers, dossiers et disques pris en charge par le moteur multimédia intégré." xml:space="preserve"><value>• Playback of files, folders and discs supported by the integrated media engine.</value></data>
+  <data name="• Sélection des pistes vidéo, audio et sous-titres, ajout de sous-titres externes et synchronisation au milliseconde près." xml:space="preserve"><value>• Video, audio and subtitle track selection, external subtitles and millisecond-accurate synchronization.</value></data>
+  <data name="+  retardé" xml:space="preserve"><value>+  delayed</value></data>
+  <data name="−  avancé" xml:space="preserve"><value>−  earlier</value></data>
+  <data name="0 à 500 px" xml:space="preserve"><value>0 to 500 px</value></data>
+  <data name="Fuze" xml:space="preserve"><value>Fuze</value></data>
+  <data name="Projet" xml:space="preserve"><value>Project</value></data>
+  <data name="INTERFACE ET PERSONNALISATION" xml:space="preserve"><value>INTERFACE AND CUSTOMIZATION</value></data>
+  <data name="Retirer le verrouillage du centre" xml:space="preserve"><value>Remove center lock</value></data>
+  <data name="Masquer ou afficher la ligne centrale horizontale" xml:space="preserve"><value>Show or hide the horizontal center line</value></data>
+  <data name="Nom de la nouvelle interface" xml:space="preserve"><value>New interface name</value></data>
+  <data name="Heures" xml:space="preserve"><value>Hours</value></data>
+  <data name="Minutes" xml:space="preserve"><value>Minutes</value></data>
+  <data name="Ouvrir un flux" xml:space="preserve"><value>Open a stream</value></data>
+  <data name="Lire le flux" xml:space="preserve"><value>Play stream</value></data>
+  <data name="Agrandir" xml:space="preserve"><value>Maximize</value></data>
+  <data name="Ctrl+O" xml:space="preserve"><value>Ctrl+O</value></data>
+  <data name="Ctrl+Maj+O" xml:space="preserve"><value>Ctrl+Shift+O</value></data>
+  <data name="Espace" xml:space="preserve"><value>Space</value></data>
+  <data name="Afficher la barre des outils" xml:space="preserve"><value>Show the toolbar</value></data>
+  <data name="Ouvrir un fichier" xml:space="preserve"><value>Open a file</value></data>
+  <data name="Volume 80 %" xml:space="preserve"><value>Volume 80%</value></data>
+  <data name="Retirer de la file" xml:space="preserve"><value>Remove from queue</value></data>
+  <data name="+ Ajouter" xml:space="preserve"><value>+ Add</value></data>
+  <data name="Avancer" xml:space="preserve"><value>Forward</value></data>
+  <data name="Afficher et garder la barre des options ouverte" xml:space="preserve"><value>Show and keep the options bar open</value></data>
+  <data name="-00:00" xml:space="preserve"><value>-00:00</value></data>
+  <data name="Afficher ou masquer la file des médias" xml:space="preserve"><value>Show or hide the media queue</value></data>
+  <data name="Ouvrir la synchronisation des pistes" xml:space="preserve"><value>Open track synchronization</value></data>
+  <data name="Multiplicateur de vitesse" xml:space="preserve"><value>Speed multiplier</value></data>
+  <data name="Enregistrer et fermer" xml:space="preserve"><value>Save and close</value></data>
+  <data name="Durée du retour en arrière" xml:space="preserve"><value>Rewind duration</value></data>
+  <data name="Durée de l’avance rapide" xml:space="preserve"><value>Fast-forward duration</value></data>
+  <data name="Donner priorité aux chapitres" xml:space="preserve"><value>Prioritize chapters</value></data>
+  <data name="Activer le fichier suivant" xml:space="preserve"><value>Enable next file</value></data>
+  <data name="Activer le dossier suivant" xml:space="preserve"><value>Enable next folder</value></data>
+  <data name="Afficher le titre du dossier" xml:space="preserve"><value>Show the folder title</value></data>
+  <data name="Afficher le dossier suivant dans la file" xml:space="preserve"><value>Show the next folder in the queue</value></data>
+  <data name="Titre" xml:space="preserve"><value>Title</value></data>
+  <data name="Titre du format personnalisé" xml:space="preserve"><value>Custom format title</value></data>
+  <data name="Extension" xml:space="preserve"><value>Extension</value></data>
+  <data name="Extension du format personnalisé" xml:space="preserve"><value>Custom format extension</value></data>
+  <data name="Type" xml:space="preserve"><value>Type</value></data>
+  <data name="Type du format personnalisé" xml:space="preserve"><value>Custom format type</value></data>
+  <data name="Ajouter un format personnalisé" xml:space="preserve"><value>Add a custom format</value></data>
+  <data name="Ne demande rien si la position est dans ce pourcentage initial." xml:space="preserve"><value>Do not ask when the position is within this initial percentage.</value></data>
+  <data name="Pourcentage initial sans question de reprise" xml:space="preserve"><value>Initial percentage without a resume prompt</value></data>
+  <data name="Ne demande rien si la position est dans ce pourcentage final." xml:space="preserve"><value>Do not ask when the position is within this final percentage.</value></data>
+  <data name="Pourcentage final sans question de reprise" xml:space="preserve"><value>Final percentage without a resume prompt</value></data>
+  <data name="Lire automatiquement le média suivant" xml:space="preserve"><value>Automatically play the next media</value></data>
+  <data name="Demande une confirmation avant de quitter Fuze." xml:space="preserve"><value>Ask for confirmation before quitting Fuze.</value></data>
+  <data name="jours" xml:space="preserve"><value>days</value></data>
+  <data name="dossiers" xml:space="preserve"><value>folders</value></data>
+  <data name="Ouvrir le journal" xml:space="preserve"><value>Open log</value></data>
+  <data name="Ouvrir le journal de diagnostic" xml:space="preserve"><value>Open the diagnostic log</value></data>
+  <data name="Emplacement du journal" xml:space="preserve"><value>Log location</value></data>
+  <data name="Affichage temporaire du volume" xml:space="preserve"><value>Temporary volume display</value></data>
+  <data name="Type de volume" xml:space="preserve"><value>Volume style</value></data>
+  <data name="Disparition du curseur flottant" xml:space="preserve"><value>Floating cursor disappearance</value></data>
+  <data name="Utiliser l’interface discrète au démarrage d’une vidéo" xml:space="preserve"><value>Use the discreet interface when a video starts</value></data>
+  <data name="Choisissez les commandes visibles. Les groupes se compactent automatiquement en conservant leur espacement." xml:space="preserve"><value>Choose the visible controls. Groups compact automatically while preserving their spacing.</value></data>
+  <data name="Afficher le bouton de synchronisation" xml:space="preserve"><value>Show the synchronization button</value></data>
+  <data name="Afficher le bouton répéter le média actuel" xml:space="preserve"><value>Show the repeat current media button</value></data>
+  <data name="Afficher le bouton de capture" xml:space="preserve"><value>Show the capture button</value></data>
+  <data name="Afficher le bouton de file des médias" xml:space="preserve"><value>Show the media queue button</value></data>
+  <data name="Afficher le bouton de déplacement de l’écran" xml:space="preserve"><value>Show the screen pan button</value></data>
+  <data name="Choisissez mon interface" xml:space="preserve"><value>Choose my interface</value></data>
+  <data name="Compacter automatiquement les boutons absents de la barre inférieure" xml:space="preserve"><value>Automatically compact buttons missing from the bottom bar</value></data>
+  <data name="LIGNE GAUCHE" xml:space="preserve"><value>LEFT ROW</value></data>
+  <data name="LIGNE CENTRALE" xml:space="preserve"><value>CENTER ROW</value></data>
+  <data name="LIGNE DROITE" xml:space="preserve"><value>RIGHT ROW</value></data>
+  <data name="Espacement" xml:space="preserve"><value>Spacing</value></data>
+  <data name="Masquer automatiquement la souris" xml:space="preserve"><value>Automatically hide the mouse</value></data>
+  <data name="MOLETTE" xml:space="preserve"><value>SCROLL WHEEL</value></data>
+  <data name="Molette centrale : volume" xml:space="preserve"><value>Center wheel: volume</value></data>
+  <data name="Molette centrale : temps" xml:space="preserve"><value>Center wheel: time</value></data>
+  <data name="Barre de temps" xml:space="preserve"><value>Timeline</value></data>
+  <data name="Pistes audio" xml:space="preserve"><value>Audio tracks</value></data>
+  <data name="English" xml:space="preserve"><value>English</value></data>
+  <data name="Désactiver les info-bulles" xml:space="preserve"><value>Disable tooltips</value></data>
+  <data name="NOM DU CHAPITRE DANS LA BULLE DU TEMPS" xml:space="preserve"><value>CHAPTER NAME IN THE TIME BUBBLE</value></data>
+  <data name="Afficher le nom du chapitre dans la bulle du temps" xml:space="preserve"><value>Show the chapter name in the time bubble</value></data>
+  <data name="Activer le double clic pour le plein écran" xml:space="preserve"><value>Enable double-click for fullscreen</value></data>
+  <data name="Désactiver l’audio au démarrage" xml:space="preserve"><value>Disable audio at startup</value></data>
+  <data name="VOLUME" xml:space="preserve"><value>VOLUME</value></data>
+  <data name="Volume au démarrage" xml:space="preserve"><value>Startup volume</value></data>
+  <data name="Le choix manuel remplace le mode audio adaptatif." xml:space="preserve"><value>Manual selection overrides adaptive audio mode.</value></data>
+  <data name="Langue audio préférée" xml:space="preserve"><value>Preferred audio language</value></data>
+  <data name="Vider la liste audio" xml:space="preserve"><value>Clear audio list</value></data>
+  <data name="Ajouter un titre audio" xml:space="preserve"><value>Add an audio title</value></data>
+  <data name="Priorités audio personnalisées" xml:space="preserve"><value>Custom audio priorities</value></data>
+  <data name="Titre audio prioritaire" xml:space="preserve"><value>Priority audio title</value></data>
+  <data name="Mode de canaux audio par défaut" xml:space="preserve"><value>Default audio channel mode</value></data>
+  <data name="Mode de canaux audio" xml:space="preserve"><value>Audio channel mode</value></data>
+  <data name="NORMALISATION DU VOLUME" xml:space="preserve"><value>VOLUME NORMALIZATION</value></data>
+  <data name="MODE EXCLUSIF WASAPI" xml:space="preserve"><value>WASAPI EXCLUSIVE MODE</value></data>
+  <data name="Activer le mode exclusif WASAPI" xml:space="preserve"><value>Enable WASAPI exclusive mode</value></data>
+  <data name="PASSTHROUGH HDMI / S/PDIF" xml:space="preserve"><value>HDMI / S/PDIF PASSTHROUGH</value></data>
+  <data name="Activer le passthrough audio" xml:space="preserve"><value>Enable audio passthrough</value></data>
+  <data name="Ouvrir automatiquement les vidéos en plein écran" xml:space="preserve"><value>Open videos in fullscreen automatically</value></data>
+  <data name="Écran de démarrage des vidéos" xml:space="preserve"><value>Video display</value></data>
+  <data name="Moteur de sortie vidéo" xml:space="preserve"><value>Video output driver</value></data>
+  <data name="OpenGL" xml:space="preserve"><value>OpenGL</value></data>
+  <data name="Valeur comprise entre 50 et 1 000 %." xml:space="preserve"><value>Value between 50 and 1,000%.</value></data>
+  <data name="Zoom vidéo personnalisé en pourcentage" xml:space="preserve"><value>Custom video zoom percentage</value></data>
+  <data name="HDR et gestion des couleurs" xml:space="preserve"><value>HDR and color management</value></data>
+  <data name="Mode HDR et couleurs" xml:space="preserve"><value>HDR and color mode</value></data>
+  <data name="Choisit le traitement HDR et la gestion des couleurs de la vidéo." xml:space="preserve"><value>Chooses HDR processing and video color management.</value></data>
+  <data name="Emplacement de base" xml:space="preserve"><value>Base location</value></data>
+  <data name="Dossier de base des captures" xml:space="preserve"><value>Screenshot base folder</value></data>
+  <data name="Nom du dossier de captures" xml:space="preserve"><value>Screenshot folder name</value></data>
+  <data name="Format" xml:space="preserve"><value>Format</value></data>
+  <data name="Format des captures" xml:space="preserve"><value>Screenshot format</value></data>
+  <data name="Placement du texte" xml:space="preserve"><value>Text placement</value></data>
+  <data name="Placement du préfixe ou suffixe" xml:space="preserve"><value>Prefix or suffix placement</value></data>
+  <data name="Texte du préfixe ou suffixe" xml:space="preserve"><value>Prefix or suffix text</value></data>
+  <data name="Activer la numérotation séquentielle" xml:space="preserve"><value>Enable sequential numbering</value></data>
+  <data name="Désactiver les sous-titres au démarrage" xml:space="preserve"><value>Disable subtitles at startup</value></data>
+  <data name="Afficher le titre au démarrage" xml:space="preserve"><value>Show the title at startup</value></data>
+  <data name="Prioriser le titre original" xml:space="preserve"><value>Prioritize the original title</value></data>
+  <data name="Prioriser le titre original du média" xml:space="preserve"><value>Prioritize the media’s original title</value></data>
+  <data name="Langue préférée des sous-titres" xml:space="preserve"><value>Preferred subtitle language</value></data>
+  <data name="Priorités de sous-titres personnalisées" xml:space="preserve"><value>Custom subtitle priorities</value></data>
+  <data name="Titre de sous-titre prioritaire" xml:space="preserve"><value>Priority subtitle title</value></data>
+  <data name="Encodage par défaut des sous-titres" xml:space="preserve"><value>Default subtitle encoding</value></data>
+  <data name="Modifier le titre" xml:space="preserve"><value>Edit title</value></data>
+  <data name="Police" xml:space="preserve"><value>Font</value></data>
+  <data name="Police des sous-titres" xml:space="preserve"><value>Subtitle font</value></data>
+  <data name="Couleur du texte" xml:space="preserve"><value>Text color</value></data>
+  <data name="Couleur du texte des sous-titres" xml:space="preserve"><value>Subtitle text color</value></data>
+  <data name="Épaisseur du contour des sous-titres" xml:space="preserve"><value>Subtitle outline thickness</value></data>
+  <data name="Taille" xml:space="preserve"><value>Size</value></data>
+  <data name="Taille des sous-titres" xml:space="preserve"><value>Subtitle size</value></data>
+  <data name="Adapter la taille du texte à la taille de l’écran" xml:space="preserve"><value>Scale text size to the screen</value></data>
+  <data name="Couleur du contour" xml:space="preserve"><value>Outline color</value></data>
+  <data name="Couleur du contour des sous-titres" xml:space="preserve"><value>Subtitle outline color</value></data>
+  <data name="Ombre" xml:space="preserve"><value>Shadow</value></data>
+  <data name="Ajouter une ombre aux sous-titres" xml:space="preserve"><value>Add a shadow to subtitles</value></data>
+  <data name="Forcer la position des sous-titres" xml:space="preserve"><value>Force subtitle position</value></data>
+  <data name="Marge horizontale" xml:space="preserve"><value>Horizontal margin</value></data>
+  <data name="Marge horizontale des sous-titres" xml:space="preserve"><value>Subtitle horizontal margin</value></data>
+  <data name="Marge verticale" xml:space="preserve"><value>Vertical margin</value></data>
+  <data name="Marge verticale des sous-titres" xml:space="preserve"><value>Subtitle vertical margin</value></data>
+  <data name="IGNORER LES TOUCHES DE VOLUME DU CLAVIER" xml:space="preserve"><value>IGNORE KEYBOARD VOLUME KEYS</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>Confirmation</value></data>
+  <data name="Modifier le raccourci" xml:space="preserve"><value>Edit shortcut</value></data>
+  <data name="Une valeur positive fait arriver la piste plus tard." xml:space="preserve"><value>A positive value makes the track start later.</value></data>
+  <data name="−100 ms" xml:space="preserve"><value>−100 ms</value></data>
+  <data name="+100 ms" xml:space="preserve"><value>+100 ms</value></data>
+  <data name="Curseur de synchronisation vidéo" xml:space="preserve"><value>Video synchronization slider</value></data>
+  <data name="Curseur de synchronisation audio" xml:space="preserve"><value>Audio synchronization slider</value></data>
+  <data name="Curseur de synchronisation des sous-titres" xml:space="preserve"><value>Subtitle synchronization slider</value></data>
+  <data name="Réinitialiser la vidéo" xml:space="preserve"><value>Reset video</value></data>
+  <data name="Réinitialiser l’audio" xml:space="preserve"><value>Reset audio</value></data>
+  <data name="Réinitialiser les sous-titres" xml:space="preserve"><value>Reset subtitles</value></data>
+  <data name="Largeur du format d’image" xml:space="preserve"><value>Aspect ratio width</value></data>
+  <data name="Hauteur du format d’image" xml:space="preserve"><value>Aspect ratio height</value></data>
+  <data name="Choisissez un zoom compris entre 50 % et 1 000 %." xml:space="preserve"><value>Choose a zoom between 50% and 1,000%.</value></data>
+  <data name="Vidéo • {0}" xml:space="preserve"><value>Video • {0}</value></data>
+  <data name="Audio • {0}" xml:space="preserve"><value>Audio • {0}</value></data>
+  <data name="Piste {0}" xml:space="preserve"><value>Track {0}</value></data>
+  <data name="Piste {0}  ·  {1}" xml:space="preserve"><value>Track {0}  ·  {1}</value></data>
+  <data name="Personnaliser… ({0})" xml:space="preserve"><value>Custom… ({0})</value></data>
+  <data name="Zoom vidéo • {0}" xml:space="preserve"><value>Video zoom • {0}</value></data>
+  <data name="Zoom vidéo • {0} %" xml:space="preserve"><value>Video zoom • {0}%</value></data>
+  <data name="Zoom vidéo • Personnalisé ({0} %)" xml:space="preserve"><value>Video zoom • Custom ({0}%)</value></data>
+  <data name="Format d’image • {0}" xml:space="preserve"><value>Aspect ratio • {0}</value></data>
+  <data name="Format d’image • Personnalisé ({0})" xml:space="preserve"><value>Aspect ratio • Custom ({0})</value></data>
+  <data name="Personnalisé ({0} %)" xml:space="preserve"><value>Custom ({0}%)</value></data>
+  <data name="Vitesse {0}" xml:space="preserve"><value>Speed {0}</value></data>
+  <data name="{0} • activé" xml:space="preserve"><value>{0} • enabled</value></data>
+  <data name="{0} • désactivé" xml:space="preserve"><value>{0} • disabled</value></data>
+  <data name="Désactivez le passthrough pour modifier les canaux" xml:space="preserve"><value>Disable passthrough to change channels</value></data>
+  <data name="Désactivez le passthrough pour utiliser les traitements audio" xml:space="preserve"><value>Disable passthrough to use audio processing</value></data>
+  <data name="Réduit l’écart entre les sons faibles et les sons forts" xml:space="preserve"><value>Reduces the difference between quiet and loud sounds</value></data>
+  <data name="Accentue les fréquences principales des voix" xml:space="preserve"><value>Emphasizes the main frequencies of voices</value></data>
+  <data name="Adapte le mélange stéréo pour une écoute plus naturelle au casque" xml:space="preserve"><value>Adapts the stereo mix for more natural headphone listening</value></data>
+  <data name="Conversion surround vers stéréo" xml:space="preserve"><value>Surround-to-stereo conversion</value></data>
+  <data name="Mélange les canaux 5.1 ou 7.1 vers deux haut-parleurs" xml:space="preserve"><value>Downmixes 5.1 or 7.1 channels to two speakers</value></data>
+  <data name="Son coupé" xml:space="preserve"><value>Muted</value></data>
+  <data name="Sous-titres ajoutés" xml:space="preserve"><value>Subtitles added</value></data>
+  <data name="Plein écran • Échap pour quitter" xml:space="preserve"><value>Fullscreen • press Esc to exit</value></data>
+  <data name="Déplacement de l’écran activé : glissez l’image • molette : zoom • clic droit : recentrer" xml:space="preserve"><value>Screen pan enabled: drag the image • wheel: zoom • right-click: recenter</value></data>
+  <data name="Afficher la barre des options ouverte" xml:space="preserve"><value>Show the options bar open</value></data>
+  <data name="Masquer la barre des options" xml:space="preserve"><value>Hide the options bar</value></data>
+  <data name="Déplacement de l’écran (G)" xml:space="preserve"><value>Screen pan (G)</value></data>
+  <data name="Lecture aléatoire activée" xml:space="preserve"><value>Shuffle enabled</value></data>
+  <data name="Lecture aléatoire désactivée" xml:space="preserve"><value>Shuffle disabled</value></data>
+  <data name="Répétition du média actuel activée" xml:space="preserve"><value>Repeat current media enabled</value></data>
+  <data name="Répétition du média actuel désactivée" xml:space="preserve"><value>Repeat current media disabled</value></data>
+  <data name="Paramètres enregistrés • une option de lecture n’a pas pu être appliquée" xml:space="preserve"><value>Settings saved • a playback option could not be applied</value></data>
+  <data name="Paramètres enregistrés • sortie vidéo appliquée au prochain démarrage" xml:space="preserve"><value>Settings saved • video output will apply on the next startup</value></data>
+  <data name="Paramètres enregistrés" xml:space="preserve"><value>Settings saved</value></data>
+  <data name="Paramètres exportés" xml:space="preserve"><value>Settings exported</value></data>
+  <data name="La configuration de Fuze a été exportée. La file et la reprise locale n'ont pas été incluses." xml:space="preserve"><value>Fuze configuration exported. The queue and local resume data were not included.</value></data>
+  <data name="Fuze n'a pas pu écrire ce fichier. Vérifiez l'emplacement choisi." xml:space="preserve"><value>Fuze could not write this file. Check the selected location.</value></data>
+  <data name="Ce fichier n'est pas une configuration Fuze valide ou ne peut pas être lu." xml:space="preserve"><value>This file is not a valid Fuze configuration or could not be read.</value></data>
+  <data name="Les informations du média ne sont plus disponibles." xml:space="preserve"><value>Media information is no longer available.</value></data>
+  <data name="Les détails des codecs ne sont pas encore disponibles." xml:space="preserve"><value>Codec details are not available yet.</value></data>
+  <data name="MOTEUR PRÊT" xml:space="preserve"><value>ENGINE READY</value></data>
+  <data name="1 élément" xml:space="preserve"><value>1 item</value></data>
+  <data name="{0} éléments" xml:space="preserve"><value>{0} items</value></data>
+  <data name="Nom de la vidéo — aperçu de la mise en page" xml:space="preserve"><value>Video title — layout preview</value></data>
+  <data name="Précédent" xml:space="preserve"><value>Previous</value></data>
+  <data name="Quitter le plein écran" xml:space="preserve"><value>Exit fullscreen</value></data>
+  <data name="Automatique (système)" xml:space="preserve"><value>Automatic (system)</value></data>
+  <data name="Aucune piste sélectionnée" xml:space="preserve"><value>No track selected</value></data>
+  <data name="Média précédent (P)" xml:space="preserve"><value>Previous media (P)</value></data>
+  <data name="TERMINÉ" xml:space="preserve"><value>FINISHED</value></data>
+  <data name="Millisecondes affichées" xml:space="preserve"><value>Milliseconds shown</value></data>
+  <data name="Millisecondes masquées" xml:space="preserve"><value>Milliseconds hidden</value></data>
+  <data name="Durée totale" xml:space="preserve"><value>Total duration</value></data>
+  <data name="Audio adaptatif • {0}" xml:space="preserve"><value>Adaptive audio • {0}</value></data>
+  <data name="Association des fichiers impossible : {0}" xml:space="preserve"><value>File association failed: {0}</value></data>
+  <data name="Épisodes ajoutés à la file : {0}" xml:space="preserve"><value>Episodes added to queue: {0}</value></data>
+  <data name="Liste ouverte · {0} média(s)" xml:space="preserve"><value>Playlist opened • {0} item(s)</value></data>
+  <data name="Position {0}" xml:space="preserve"><value>Position {0}</value></data>
+  <data name="Volume {0} %" xml:space="preserve"><value>Volume {0}%</value></data>
+  <data name="Chapitre {0}" xml:space="preserve"><value>Chapter {0}</value></data>
+  <data name="Capture enregistrée • {0}" xml:space="preserve"><value>Screenshot saved • {0}</value></data>
+  <data name="Capture enregistrée et copiée • {0}" xml:space="preserve"><value>Screenshot saved and copied • {0}</value></data>
+  <data name="Capture enregistrée • copie impossible • {0}" xml:space="preserve"><value>Screenshot saved • copy failed • {0}</value></data>
+  <data name="Impossible d’ouvrir {0}" xml:space="preserve"><value>Unable to open {0}</value></data>
+  <data name="Impossible d’ajouter ces sous-titres" xml:space="preserve"><value>Unable to add these subtitles</value></data>
+  <data name="Replier la barre des outils" xml:space="preserve"><value>Collapse the toolbar</value></data>
+  <data name="Garder la barre des outils ouverte" xml:space="preserve"><value>Keep the toolbar open</value></data>
+  <data name="Automatique (écran actuel)" xml:space="preserve"><value>Automatic (current display)</value></data>
+  <data name="Associer les fichiers {0} à Fuze" xml:space="preserve"><value>Associate {0} files with Fuze</value></data>
+  <data name="Exporter les paramètres Fuze" xml:space="preserve"><value>Export Fuze settings</value></data>
+  <data name="Importer les paramètres Fuze" xml:space="preserve"><value>Import Fuze settings</value></data>
+  <data name="Choisir l’emplacement des captures d’écran" xml:space="preserve"><value>Choose screenshot location</value></data>
+  <data name="Modifier • {0}" xml:space="preserve"><value>Edit • {0}</value></data>
+  <data name="Aperçu de {0}" xml:space="preserve"><value>Preview {0}</value></data>
+  <data name="Titre de la vidéo" xml:space="preserve"><value>Video title</value></data>
+  <data name="Titre • {0}" xml:space="preserve"><value>Title • {0}</value></data>
+  <data name="Aucun bouton verrouillé" xml:space="preserve"><value>No locked button</value></data>
+  <data name="Ce nom existe déjà. Choisissez un autre nom." xml:space="preserve"><value>This name already exists. Choose another name.</value></data>
+  <data name="Fuze — compacte" xml:space="preserve"><value>Fuze — compact</value></data>
+  <data name="Fuze — cinéma" xml:space="preserve"><value>Fuze — cinema</value></data>
+  <data name="Fuze — classique" xml:space="preserve"><value>Fuze — classic</value></data>
+  <data name="Fuze — personnalisé" xml:space="preserve"><value>Fuze — custom</value></data>
+  <data name="Pause" xml:space="preserve"><value>Pause</value></data>
+  <data name="Suivant" xml:space="preserve"><value>Next</value></data>
+  <data name="Titre du média" xml:space="preserve"><value>Media title</value></data>
+  <data name="Temps" xml:space="preserve"><value>Time</value></data>
+  <data name="Temps restant" xml:space="preserve"><value>Time remaining</value></data>
+  <data name="Capture" xml:space="preserve"><value>Screenshot</value></data>
+  <data name="Pistes de sous-titres" xml:space="preserve"><value>Subtitle tracks</value></data>
+  <data name="Vitesse" xml:space="preserve"><value>Speed</value></data>
+  <data name="Synchronisation" xml:space="preserve"><value>Synchronization</value></data>
+  <data name="Options" xml:space="preserve"><value>Options</value></data>
+  <data name="Ouvre le sélecteur de média." xml:space="preserve"><value>Opens the media picker.</value></data>
+  <data name="Ouvrir plusieurs fichiers" xml:space="preserve"><value>Open multiple files</value></data>
+  <data name="Ouvre plusieurs médias en une seule fois." xml:space="preserve"><value>Opens multiple media files at once.</value></data>
+  <data name="Ouvrir les paramètres" xml:space="preserve"><value>Open settings</value></data>
+  <data name="Affiche la fenêtre Paramètres." xml:space="preserve"><value>Shows the Settings window.</value></data>
+  <data name="Bascule entre la lecture et la pause." xml:space="preserve"><value>Toggles playback and pause.</value></data>
+  <data name="Lecture / pause (secondaire)" xml:space="preserve"><value>Play / pause (secondary)</value></data>
+  <data name="Deuxième touche de lecture et pause." xml:space="preserve"><value>Secondary play and pause key.</value></data>
+  <data name="Reculer" xml:space="preserve"><value>Rewind</value></data>
+  <data name="Recule selon la durée configurée." xml:space="preserve"><value>Rewinds by the configured duration.</value></data>
+  <data name="Reculer (secondaire)" xml:space="preserve"><value>Rewind (secondary)</value></data>
+  <data name="Deuxième touche de recul." xml:space="preserve"><value>Secondary rewind key.</value></data>
+  <data name="Avance selon la durée configurée." xml:space="preserve"><value>Fast-forwards by the configured duration.</value></data>
+  <data name="Avancer (secondaire)" xml:space="preserve"><value>Forward (secondary)</value></data>
+  <data name="Deuxième touche d’avance." xml:space="preserve"><value>Secondary forward key.</value></data>
+  <data name="Augmente le volume de 5 %." xml:space="preserve"><value>Increases volume by 5%.</value></data>
+  <data name="Réduire le volume" xml:space="preserve"><value>Decrease volume</value></data>
+  <data name="Réduit le volume de 5 %." xml:space="preserve"><value>Decreases volume by 5%.</value></data>
+  <data name="Couper ou rétablir le son" xml:space="preserve"><value>Mute or unmute</value></data>
+  <data name="Bascule le mode muet." xml:space="preserve"><value>Toggles mute.</value></data>
+  <data name="Entre ou sort du mode plein écran." xml:space="preserve"><value>Enters or exits fullscreen.</value></data>
+  <data name="Chapitre ou média suivant" xml:space="preserve"><value>Next chapter or media</value></data>
+  <data name="Passe au chapitre suivant, puis au média suivant." xml:space="preserve"><value>Goes to the next chapter, then the next media.</value></data>
+  <data name="Chapitre ou média précédent" xml:space="preserve"><value>Previous chapter or media</value></data>
+  <data name="Passe au chapitre précédent, puis au média précédent." xml:space="preserve"><value>Goes to the previous chapter, then the previous media.</value></data>
+  <data name="Enregistre l’image vidéo actuelle." xml:space="preserve"><value>Saves the current video image.</value></data>
+  <data name="Affiche ou masque la file des médias." xml:space="preserve"><value>Shows or hides the media queue.</value></data>
+  <data name="Lecture aléatoire" xml:space="preserve"><value>Shuffle</value></data>
+  <data name="Active ou désactive la lecture aléatoire." xml:space="preserve"><value>Enables or disables shuffle.</value></data>
+  <data name="Répéter le média" xml:space="preserve"><value>Repeat media</value></data>
+  <data name="Active ou désactive la répétition du média actuel." xml:space="preserve"><value>Enables or disables repeating the current media.</value></data>
+  <data name="Piste audio suivante" xml:space="preserve"><value>Next audio track</value></data>
+  <data name="Passe à la piste audio suivante." xml:space="preserve"><value>Switches to the next audio track.</value></data>
+  <data name="Piste de sous-titres suivante" xml:space="preserve"><value>Next subtitle track</value></data>
+  <data name="Passe au sous-titre suivant." xml:space="preserve"><value>Switches to the next subtitle.</value></data>
+  <data name="Ouvre le choix de la vitesse de lecture." xml:space="preserve"><value>Opens playback speed selection.</value></data>
+  <data name="Ouvre la synchronisation des pistes." xml:space="preserve"><value>Opens track synchronization.</value></data>
+  <data name="Barre des options" xml:space="preserve"><value>Options bar</value></data>
+  <data name="Affiche ou masque la barre des options." xml:space="preserve"><value>Shows or hides the options bar.</value></data>
+  <data name="Réduire la vitesse" xml:space="preserve"><value>Decrease speed</value></data>
+  <data name="Sélectionne la vitesse de lecture précédente." xml:space="preserve"><value>Selects the previous playback speed.</value></data>
+  <data name="Augmenter la vitesse" xml:space="preserve"><value>Increase speed</value></data>
+  <data name="Sélectionne la vitesse de lecture suivante." xml:space="preserve"><value>Selects the next playback speed.</value></data>
+  <data name="Recule de {0} seconde{1}." xml:space="preserve"><value>Rewinds {0} second{1}.</value></data>
+  <data name="Avance de {0} seconde{1}." xml:space="preserve"><value>Fast-forwards {0} second{1}.</value></data>
+  <data name="Non attribué" xml:space="preserve"><value>Unassigned</value></data>
+  <data name="Maj" xml:space="preserve"><value>Shift</value></data>
+  <data name="Entrée" xml:space="preserve"><value>Enter</value></data>
+  <data name="Retour arrière" xml:space="preserve"><value>Backspace</value></data>
+  <data name="Liste déjà vide" xml:space="preserve"><value>List already empty</value></data>
+  <data name="La liste {0} ne contient aucun titre à supprimer." xml:space="preserve"><value>The {0} list has no titles to remove.</value></data>
+  <data name="Supprimer toute la liste ?" xml:space="preserve"><value>Delete the entire list?</value></data>
+  <data name="Êtes-vous sûr de vouloir supprimer les {0} titres de la liste {1} ?" xml:space="preserve"><value>Are you sure you want to delete the {0} titles from the {1} list?</value></data>
+  <data name="Rien à intégrer" xml:space="preserve"><value>Nothing to merge</value></data>
+  <data name="La liste {0} ne contient aucun nouveau titre à ajouter à la liste {1}." xml:space="preserve"><value>The {0} list has no new titles to add to the {1} list.</value></data>
+  <data name="Limite de 50 dépassée" xml:space="preserve"><value>Limit of 50 exceeded</value></data>
+  <data name="L’intégration porterait la liste {0} à {1} titres. Supprimez au moins {2} titre{3}, puis réessayez." xml:space="preserve"><value>Merging would bring the {0} list to {1} titles. Remove at least {2} title{3}, then try again.</value></data>
+  <data name="Entrez un titre et une extension valide, par exemple : MP3 et .mp3." xml:space="preserve"><value>Enter a title and a valid extension, for example: MP3 and .mp3.</value></data>
+  <data name="Entrez un espacement compris entre 0 et 24." xml:space="preserve"><value>Enter a spacing value from 0 to 24.</value></data>
+  <data name="Cette extension existe déjà dans la liste." xml:space="preserve"><value>This extension is already in the list.</value></data>
+  <data name="Entrez des valeurs comprises entre 1 et 600 secondes." xml:space="preserve"><value>Enter values between 1 and 600 seconds.</value></data>
+  <data name="Entrez des pourcentages compris entre 0 et 100 pour ignorer la question de reprise." xml:space="preserve"><value>Enter percentages from 0 to 100 to skip the resume prompt.</value></data>
+  <data name="Reprise de lecture" xml:space="preserve"><value>Playback resume</value></data>
+  <data name="Entrez pour chaque barre et pour la souris un délai compris entre 0,1 et 10 secondes." xml:space="preserve"><value>Enter a delay from 0.1 to 10 seconds for each bar and for the mouse.</value></data>
+  <data name="Disparition automatique" xml:space="preserve"><value>Automatic hiding</value></data>
+  <data name="Entrez une vitesse de défilement comprise entre 1 et 100." xml:space="preserve"><value>Enter a scrolling speed from 1 to 100.</value></data>
+  <data name="Entrez une durée comprise entre 0 et 3 650 jours. La valeur 0 conserve l’historique sans limite." xml:space="preserve"><value>Enter a duration from 0 to 3,650 days. A value of 0 keeps history without a limit.</value></data>
+  <data name="Entrez un nombre de dossiers compris entre 0 et 10." xml:space="preserve"><value>Enter a folder count from 0 to 10.</value></data>
+  <data name="Entrez un zoom personnalisé compris entre 50 et 1 000 %." xml:space="preserve"><value>Enter a custom zoom from 50 to 1,000%.</value></data>
+  <data name="Entrez un format d’image valide, par exemple 16:9 ou 21:9." xml:space="preserve"><value>Enter a valid aspect ratio, for example 16:9 or 21:9.</value></data>
+  <data name="Entrez un délai audio compris entre -30 000 et 30 000 ms." xml:space="preserve"><value>Enter an audio delay from −30,000 to 30,000 ms.</value></data>
+  <data name="Synchronisation audio" xml:space="preserve"><value>Audio synchronization</value></data>
+  <data name="Le délai doit être compris entre 0 et 30 000 ms, et la durée entre 250 et 30 000 ms." xml:space="preserve"><value>The delay must be from 0 to 30,000 ms, and the duration from 250 to 30,000 ms.</value></data>
+  <data name="Choisissez un emplacement pour les captures d’écran." xml:space="preserve"><value>Choose a location for screenshots.</value></data>
+  <data name="Captures d’écran" xml:space="preserve"><value>Screenshots</value></data>
+  <data name="Choisissez un emplacement valide pour les captures d’écran." xml:space="preserve"><value>Choose a valid location for screenshots.</value></data>
+  <data name="Entrez un nom de sous-dossier valide pour les captures." xml:space="preserve"><value>Enter a valid screenshot subfolder name.</value></data>
+  <data name="Les modèles Fuse intégrés ne peuvent pas être supprimés." xml:space="preserve"><value>Built-in Fuse layouts cannot be deleted.</value></data>
+  <data name="Les modèles intégrés à Fuse ne peuvent pas être supprimés. Vous pouvez supprimer uniquement vos interfaces personnalisées." xml:space="preserve"><value>Built-in Fuse layouts cannot be deleted. You can delete only your custom interfaces.</value></data>
+  <data name="Entrez une valeur comprise entre 50 et 1 000 %." xml:space="preserve"><value>Enter a value between 50 and 1,000%.</value></data>
+  <data name="Entrez deux nombres compris entre 1 et 10 000." xml:space="preserve"><value>Enter two numbers between 1 and 10,000.</value></data>
+  <data name="Entrez une vitesse comprise entre 0,05× et 10,00×." xml:space="preserve"><value>Enter a speed between 0.05× and 10.00×.</value></data>
+  <data name="L’adresse saisie n’est pas valide." xml:space="preserve"><value>The entered address is not valid.</value></data>
+  <data name="Flux réseau" xml:space="preserve"><value>Network stream</value></data>
+  <data name="Utilisez uniquement des nombres entiers." xml:space="preserve"><value>Use whole numbers only.</value></data>
+  <data name="Les minutes et secondes vont de 0 à 59; les millisecondes de 0 à 999." xml:space="preserve"><value>Minutes and seconds must be from 0 to 59; milliseconds from 0 to 999.</value></data>
+  <data name="Cette position est trop grande." xml:space="preserve"><value>This position is too large.</value></data>
+  <data name="Cette position dépasse la durée du média ({0})." xml:space="preserve"><value>This position exceeds the media duration ({0}).</value></data>
+  <data name="Durée du média : {0}" xml:space="preserve"><value>Media duration: {0}</value></data>
+  <data name="La durée totale du média n’est pas encore disponible." xml:space="preserve"><value>The total media duration is not available yet.</value></data>
+  <data name="Aucune piste disponible" xml:space="preserve"><value>No track available</value></data>
+  <data name="indisponible" xml:space="preserve"><value>unavailable</value></data>
+  <data name="Synchronisation {0}" xml:space="preserve"><value>{0} synchronization</value></data>
+  <data name="Ajustement {0} en temps réel pendant la lecture" xml:space="preserve"><value>Adjust {0} in real time during playback</value></data>
+  <data name="Impossible d’appliquer ce décalage" xml:space="preserve"><value>Unable to apply this offset</value></data>
+  <data name="Audio par rapport à la vidéo  •  {0}" xml:space="preserve"><value>Audio relative to video  •  {0}</value></data>
+  <data name="Sous-titres par rapport à la vidéo  •  {0}" xml:space="preserve"><value>Subtitles relative to video  •  {0}</value></data>
+  <data name="Par rapport à la vidéo  •  Audio {0}  •  Sous-titres {1}" xml:space="preserve"><value>Relative to video  •  Audio {0}  •  Subtitles {1}</value></data>
+  <data name="des sous-titres" xml:space="preserve"><value>subtitles</value></data>
+  <data name="Activer le clic simple pour lecture pause" xml:space="preserve"><value>Enable single-click play/pause</value></data>
+  <data name="Afficher le bouton de lecture aléatoire" xml:space="preserve"><value>Show shuffle button</value></data>
+  <data name="Afficher le bouton de vitesse de lecture" xml:space="preserve"><value>Show playback speed button</value></data>
+  <data name="Avancer l’audio de 100 millisecondes" xml:space="preserve"><value>Advance audio by 100 milliseconds</value></data>
+  <data name="Avancer la vidéo de 100 millisecondes" xml:space="preserve"><value>Advance video by 100 milliseconds</value></data>
+  <data name="Avancer les sous-titres de 100 millisecondes" xml:space="preserve"><value>Advance subtitles by 100 milliseconds</value></data>
+  <data name="Clic gauche : afficher ou masquer les millisecondes" xml:space="preserve"><value>Left click: show or hide milliseconds</value></data>
+  <data name="Décalage audio en millisecondes" xml:space="preserve"><value>Audio offset in milliseconds</value></data>
+  <data name="Décalage des sous-titres en millisecondes" xml:space="preserve"><value>Subtitle offset in milliseconds</value></data>
+  <data name="Décalage vidéo en millisecondes" xml:space="preserve"><value>Video offset in milliseconds</value></data>
+  <data name="Délai audio par défaut en millisecondes" xml:space="preserve"><value>Default audio delay in milliseconds</value></data>
+  <data name="Délai avant le titre en millisecondes" xml:space="preserve"><value>Delay before the title in milliseconds</value></data>
+  <data name="Délai de l’affichage temporaire du volume en secondes" xml:space="preserve"><value>Temporary volume display delay in seconds</value></data>
+  <data name="Délai de la barre inférieure en secondes" xml:space="preserve"><value>Bottom bar delay in seconds</value></data>
+  <data name="Délai de la barre supérieure en secondes" xml:space="preserve"><value>Top bar delay in seconds</value></data>
+  <data name="Délai du curseur flottant en secondes" xml:space="preserve"><value>Floating cursor delay in seconds</value></data>
+  <data name="Délai du moniteur de souris en secondes" xml:space="preserve"><value>Mouse monitor delay in seconds</value></data>
+  <data name="Durée du titre en millisecondes" xml:space="preserve"><value>Title duration in milliseconds</value></data>
+  <data name="Millisecondes" xml:space="preserve"><value>Milliseconds</value></data>
+  <data name="Permet de choisir rapidement la vitesse de lecture." xml:space="preserve"><value>Quickly choose the playback speed.</value></data>
+  <data name="Rechercher un raccourci" xml:space="preserve"><value>Search shortcuts</value></data>
+  <data name="Reprendre la lecture" xml:space="preserve"><value>Resume playback</value></data>
+  <data name="Retarder l’audio de 100 millisecondes" xml:space="preserve"><value>Delay audio by 100 milliseconds</value></data>
+  <data name="Retarder la vidéo de 100 millisecondes" xml:space="preserve"><value>Delay video by 100 milliseconds</value></data>
+  <data name="Retarder les sous-titres de 100 millisecondes" xml:space="preserve"><value>Delay subtitles by 100 milliseconds</value></data>
+  <data name="Secondes" xml:space="preserve"><value>Seconds</value></data>
+  <data name="Sélectionner automatiquement la piste audio préférée" xml:space="preserve"><value>Automatically select the preferred audio track</value></data>
+  <data name="Sélectionner automatiquement les sous-titres préférés" xml:space="preserve"><value>Automatically select the preferred subtitles</value></data>
+  <data name="Un clic dans la zone libre bascule la lecture." xml:space="preserve"><value>A click in the empty area toggles playback.</value></data>
+  <data name="Ouvrir un média" xml:space="preserve"><value>Open media</value></data>
+  <data name="Ajouter des épisodes à la file" xml:space="preserve"><value>Add episodes to the queue</value></data>
+  <data name="Ouvrir plusieurs médias" xml:space="preserve"><value>Open multiple media files</value></data>
+  <data name="Ouvrir un dossier multimédia" xml:space="preserve"><value>Open a media folder</value></data>
+  <data name="Enregistrer la liste de lecture" xml:space="preserve"><value>Save playlist</value></data>
+  <data name="Ouvrir une liste de lecture" xml:space="preserve"><value>Open playlist</value></data>
+  <data name="Ajouter des sous-titres" xml:space="preserve"><value>Add subtitles</value></data>
+  <data name="Médias" xml:space="preserve"><value>Media files</value></data>
+  <data name="Vidéos" xml:space="preserve"><value>Video files</value></data>
+  <data name="Tous les fichiers" xml:space="preserve"><value>All files</value></data>
+  <data name="Liste M3U8" xml:space="preserve"><value>M3U8 playlist</value></data>
+  <data name="Liste M3U" xml:space="preserve"><value>M3U playlist</value></data>
+  <data name="Listes de lecture" xml:space="preserve"><value>Playlists</value></data>
+  <data name="Titre original" xml:space="preserve"><value>Original title</value></data>
+  <data name="Emplacement" xml:space="preserve"><value>Location</value></data>
+  <data name="Conteneur" xml:space="preserve"><value>Container</value></data>
+  <data name="Débit global" xml:space="preserve"><value>Overall bitrate</value></data>
+  <data name="Encodeur" xml:space="preserve"><value>Encoder</value></data>
+  <data name="Création" xml:space="preserve"><value>Created</value></data>
+  <data name="Débit" xml:space="preserve"><value>Bitrate</value></data>
+  <data name="Codec" xml:space="preserve"><value>Codec</value></data>
+  <data name="Langue" xml:space="preserve"><value>Language</value></data>
+  <data name="Résolution" xml:space="preserve"><value>Resolution</value></data>
+  <data name="Images/s" xml:space="preserve"><value>Frames/s</value></data>
+  <data name="Profil" xml:space="preserve"><value>Profile</value></data>
+  <data name="Format pixel" xml:space="preserve"><value>Pixel format</value></data>
+  <data name="Couleurs" xml:space="preserve"><value>Colors</value></data>
+  <data name="Canaux" xml:space="preserve"><value>Channels</value></data>
+  <data name="Fréquence" xml:space="preserve"><value>Sample rate</value></data>
+  <data name="ID" xml:space="preserve"><value>ID</value></data>
+  <data name="De" xml:space="preserve"><value>From</value></data>
+  <data name="À" xml:space="preserve"><value>To</value></data>
+  <data name="Par défaut" xml:space="preserve"><value>Default</value></data>
+  <data name="Forcée" xml:space="preserve"><value>Forced</value></data>
+  <data name="Attributs" xml:space="preserve"><value>Attributes</value></data>
+  <data name="piste" xml:space="preserve"><value>track</value></data>
+  <data name="pistes" xml:space="preserve"><value>tracks</value></data>
+  <data name="Inconnu" xml:space="preserve"><value>Unknown</value></data>
+  <data name="Oui" xml:space="preserve"><value>Yes</value></data>
+  <data name="Non" xml:space="preserve"><value>No</value></data>
+  <data name="originale" xml:space="preserve"><value>original</value></data>
+  <data name="commentaire" xml:space="preserve"><value>commentary</value></data>
+  <data name="malentendants" xml:space="preserve"><value>hearing impaired</value></data>
+  <data name="audiodescription" xml:space="preserve"><value>audio description</value></data>
+  <data name="karaoké" xml:space="preserve"><value>karaoke</value></data>
+  <data name="Flux" xml:space="preserve"><value>Stream</value></data>
+  <data name="Texte brut" xml:space="preserve"><value>Plain text</value></data>
+  <data name="Sous-titres codés" xml:space="preserve"><value>Closed captions</value></data>
+  <data name="disposition inconnue" xml:space="preserve"><value>unknown layout</value></data>
+  <data name="heure locale du PC" xml:space="preserve"><value>local PC time</value></data>
+  <data name="Non indiqué" xml:space="preserve"><value>Not specified</value></data>
+  <data name="Espagnol" xml:space="preserve"><value>Spanish</value></data>
+  <data name="Allemand" xml:space="preserve"><value>German</value></data>
+  <data name="Italien" xml:space="preserve"><value>Italian</value></data>
+  <data name="Portugais" xml:space="preserve"><value>Portuguese</value></data>
+  <data name="Coréen" xml:space="preserve"><value>Korean</value></data>
+  <data name="Chinois" xml:space="preserve"><value>Chinese</value></data>
+  <data name="Indéterminée" xml:space="preserve"><value>Undetermined</value></data>
+  <data name="Français — Canada" xml:space="preserve"><value>French — Canada</value></data>
+  <data name="Français — France" xml:space="preserve"><value>French — France</value></data>
+  <data name="Anglais — Canada" xml:space="preserve"><value>English — Canada</value></data>
+  <data name="Anglais — États-Unis" xml:space="preserve"><value>English — United States</value></data>
+  <data name="Anglais — Royaume-Uni" xml:space="preserve"><value>English — United Kingdom</value></data>
+  <data name="Liste de lecture Fuze" xml:space="preserve"><value>Fuze playlist</value></data>
+  <data name="Renforcement des dialogues" xml:space="preserve"><value>Dialogue boost</value></data>
+  <data name="Non indiquée" xml:space="preserve"><value>Not specified</value></data>
+  <data name="Nom" xml:space="preserve"><value>Name</value></data>
+  <data name="Son" xml:space="preserve"><value>Audio</value></data>
+  <data name="Début" xml:space="preserve"><value>Start</value></data>
+  <data name="Détails" xml:space="preserve"><value>Details</value></data>
+  <data name="En cours de lecture" xml:space="preserve"><value>Playing</value></data>
+  <data name="Chapitres" xml:space="preserve"><value>Chapters</value></data>
+  <data name="Durée" xml:space="preserve"><value>Duration</value></data>
+  <data name="Écran" xml:space="preserve"><value>Display</value></data>
+  <data name="principal" xml:space="preserve"><value>primary</value></data>
+  <data name="0,25×" xml:space="preserve"><value>0.25×</value></data>
+  <data name="0,50×" xml:space="preserve"><value>0.50×</value></data>
+  <data name="0,75×" xml:space="preserve"><value>0.75×</value></data>
+  <data name="0,90×" xml:space="preserve"><value>0.90×</value></data>
+  <data name="1,00×" xml:space="preserve"><value>1.00×</value></data>
+  <data name="1,25×" xml:space="preserve"><value>1.25×</value></data>
+  <data name="1,50×" xml:space="preserve"><value>1.50×</value></data>
+  <data name="2,00×" xml:space="preserve"><value>2.00×</value></data>
+  <data name="3,00×" xml:space="preserve"><value>3.00×</value></data>
+  <data name="1 résultat / {0}" xml:space="preserve"><value>1 result / {0}</value></data>
+  <data name="{0} résultats / {1}" xml:space="preserve"><value>{0} results / {1}</value></data>
+  <data name="• FLUX RÉSEAU" xml:space="preserve"><value>• NETWORK STREAM</value></data>
+  <data name="Impossible d’ouvrir l’emplacement du journal : {0}" xml:space="preserve"><value>Unable to open the log location: {0}</value></data>
+  <data name="Les marges doivent être comprises entre 0 et 500 pixels." xml:space="preserve"><value>Margins must be between 0 and 500 pixels.</value></data>
+  <data name="Haut gauche" xml:space="preserve"><value>Top left</value></data>
+  <data name="Haut centre" xml:space="preserve"><value>Top center</value></data>
+  <data name="Haut droite" xml:space="preserve"><value>Top right</value></data>
+  <data name="Centre gauche" xml:space="preserve"><value>Center left</value></data>
+  <data name="Centre droite" xml:space="preserve"><value>Center right</value></data>
+  <data name="Bas gauche" xml:space="preserve"><value>Bottom left</value></data>
+  <data name="Bas centre" xml:space="preserve"><value>Bottom center</value></data>
+  <data name="Bas droite" xml:space="preserve"><value>Bottom right</value></data>
+  <data name="Bas centre (aperçu automatique)" xml:space="preserve"><value>Bottom center (automatic preview)</value></data>
+  <data name="Choisissez un élément à modifier" xml:space="preserve"><value>Choose an item to edit</value></data>
+  <data name="Aucun élément sélectionné" xml:space="preserve"><value>No item selected</value></data>
+  <data name="Sous-titre • {0}" xml:space="preserve"><value>Subtitle • {0}</value></data>
+  <data name="Cette combinaison est déjà utilisée par « {0} »." xml:space="preserve"><value>This combination is already used by “{0}”.</value></data>
+  <data name="Le chemin de Fuze est introuvable." xml:space="preserve"><value>The Fuze path cannot be found.</value></data>
+  <data name="Sélectionnez au moins un format de fichier." xml:space="preserve"><value>Select at least one file format.</value></data>
+  <data name="Windows n’a pas permis d’accéder aux associations de fichiers." xml:space="preserve"><value>Windows did not allow access to file associations.</value></data>
+  <data name="Impossible de créer l’association Fuze." xml:space="preserve"><value>Unable to create the Fuze association.</value></data>
+  <data name="Fichier multimédia Fuze" xml:space="preserve"><value>Fuze media file</value></data>
+  <data name="Impossible de déclarer Fuze dans les applications Windows." xml:space="preserve"><value>Unable to register Fuze in Windows applications.</value></data>
+  <data name="Lecteur multimédia Fuze" xml:space="preserve"><value>Fuze media player</value></data>
+  <data name="Impossible de déclarer les formats de Fuze." xml:space="preserve"><value>Unable to register Fuze formats.</value></data>
+  <data name="Impossible d’enregistrer Fuze auprès de Windows." xml:space="preserve"><value>Unable to register Fuze with Windows.</value></data>
+  <data name="Suppr" xml:space="preserve"><value>Delete</value></data>
+  <data name="Matroska vidéo (.mkv)" xml:space="preserve"><value>Matroska video (.mkv)</value></data>
+  <data name="MPEG-4 (.mp4)" xml:space="preserve"><value>MPEG-4 (.mp4)</value></data>
+  <data name="QuickTime (.mov)" xml:space="preserve"><value>QuickTime (.mov)</value></data>
+  <data name="MPEG-TS (.ts)" xml:space="preserve"><value>MPEG-TS (.ts)</value></data>
+  <data name="DVD vidéo (.vob)" xml:space="preserve"><value>DVD video (.vob)</value></data>
+  <data name="Ogg vidéo (.ogv)" xml:space="preserve"><value>Ogg video (.ogv)</value></data>
+  <data name="Flash vidéo (.flv)" xml:space="preserve"><value>Flash video (.flv)</value></data>
+  <data name="Matroska audio (.mka)" xml:space="preserve"><value>Matroska audio (.mka)</value></data>
+  <data name="MPEG audio (.mp3)" xml:space="preserve"><value>MPEG audio (.mp3)</value></data>
+  <data name="MPEG-4 audio (.m4a)" xml:space="preserve"><value>MPEG-4 audio (.m4a)</value></data>
+  <data name="Ogg audio (.ogg)" xml:space="preserve"><value>Ogg audio (.ogg)</value></data>
+  <data name="AVI (.avi)" xml:space="preserve"><value>AVI (.avi)</value></data>
+  <data name="WebM (.webm)" xml:space="preserve"><value>WebM (.webm)</value></data>
+  <data name="M4V (.m4v)" xml:space="preserve"><value>M4V (.m4v)</value></data>
+  <data name="M2TS (.m2ts)" xml:space="preserve"><value>M2TS (.m2ts)</value></data>
+  <data name="MTS (.mts)" xml:space="preserve"><value>MTS (.mts)</value></data>
+  <data name="MPEG (.mpeg)" xml:space="preserve"><value>MPEG (.mpeg)</value></data>
+  <data name="MPEG (.mpg)" xml:space="preserve"><value>MPEG (.mpg)</value></data>
+  <data name="Windows Media (.wmv)" xml:space="preserve"><value>Windows Media (.wmv)</value></data>
+  <data name="FLAC (.flac)" xml:space="preserve"><value>FLAC (.flac)</value></data>
+  <data name="Opus (.opus)" xml:space="preserve"><value>Opus (.opus)</value></data>
+  <data name="WAV (.wav)" xml:space="preserve"><value>WAV (.wav)</value></data>
+  <data name="AAC (.aac)" xml:space="preserve"><value>AAC (.aac)</value></data>
+  <data name="Vidéo principale" xml:space="preserve"><value>Main video</value></data>
+</root>
