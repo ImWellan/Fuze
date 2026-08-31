@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/31636572/README.md)
+[README.md](https://github.com/user-attachments/files/31636714/README.md)
 # Fuse Player by ImWeLLaN
 
 Fuse Player by ImWeLLaN is a Windows media player built around libmpv. It is designed first for smooth playback, with a clear and configurable Fuse interface.
@@ -57,16 +57,13 @@ This release is self-contained. The bundled libmpv engine and codecs are used di
 
 ## Planned improvements
 
-Future work will focus on useful player features such as:
+Future work will stay limited to the remaining player improvements already discussed:
 
-- richer media information and playback-history controls;
-- additional subtitle/audio synchronization and track-priority tools;
-- more bottom-bar layouts and editor refinements;
-- library, thumbnails and media search features;
-- improved image, zoom and display controls;
-- further localization, accessibility and stability improvements.
+- simple video trimming and editing;
+- richer playback tracking and resume history;
+- other useful player-focused features explicitly requested for Fuse.
 
-These improvements are planned around the same priority: a responsive player that remains useful during normal playback.
+These additions will remain secondary to playback and will not turn Fuse into a conversion or recording application.
 
 ## Feedback
 
