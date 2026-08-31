@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Assets\Fuse.ico</ApplicationIcon>
+    <AssemblyName>Fuze</AssemblyName>
+    <AssemblyTitle>Fuze</AssemblyTitle>
+    <Product>Fuze</Product>
+    <RootNamespace>FusePlayer</RootNamespace>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <!-- La version de développement utilise le runtime .NET installé et ne
+         déballe rien au démarrage. Une publication autonome en dossier pourra
+         être produite séparément pour la distribution publique. -->
+    <SelfContained>false</SelfContained>
+    <PublishSingleFile>false</PublishSingleFile>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="artifacts\**\*.cs" />
+    <None Remove="Assets\Fuse.ico" />
+    <None Remove="Assets\FuseLogo.png" />
+    <None Remove="Assets\FuseTransparentLogo.png" />
+    <Resource Include="Assets\Fuse.ico" />
+    <Resource Include="Assets\FuseLogo.png" />
+    <Resource Include="Assets\FuseTransparentLogo.png" />
+    <Resource Include="Assets\Flags\*.png" />
+    <None Update="Assets\Flags\LICENSE-flag-icons.txt"
+          CopyToOutputDirectory="PreserveNewest"
+          CopyToPublishDirectory="PreserveNewest"
+          ExcludeFromSingleFile="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Native\libmpv-2.dll"
+             CopyToOutputDirectory="PreserveNewest"
+             CopyToPublishDirectory="PreserveNewest"
+             ExcludeFromSingleFile="true"
+             Link="libmpv-2.dll" />
+    <None Update="THIRD-PARTY-NOTICES.txt"
+          CopyToOutputDirectory="PreserveNewest"
+          CopyToPublishDirectory="PreserveNewest"
+          ExcludeFromSingleFile="true" />
+    <None Update="Licences Open\mpv-Copyright.txt"
+          CopyToOutputDirectory="PreserveNewest"
+          CopyToPublishDirectory="PreserveNewest"
+          ExcludeFromSingleFile="true" />
+    <None Update="Licences Open\mpv-GPL-2.0.txt"
+          CopyToOutputDirectory="PreserveNewest"
+          CopyToPublishDirectory="PreserveNewest"
+          ExcludeFromSingleFile="true" />
+    <None Update="Licences Open\*.*"
+          CopyToOutputDirectory="PreserveNewest"
+          CopyToPublishDirectory="PreserveNewest"
+          ExcludeFromSingleFile="true" />
+  </ItemGroup>
+
+</Project>

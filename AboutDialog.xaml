@@ -1,0 +1,295 @@
+<Window x:Class="FusePlayer.AboutDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="À propos de Fuze"
+        Width="640" Height="640"
+        MinWidth="580" MinHeight="560"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        ShowInTaskbar="False"
+        Topmost="True"
+        Background="Transparent"
+        Cursor="Arrow"
+        PreviewKeyDown="Window_OnPreviewKeyDown"
+        FontFamily="Segoe UI Variable Text">
+    <Border Background="#FF11151C"
+            BorderBrush="#FF343B47"
+            BorderThickness="1"
+            CornerRadius="14"
+            ClipToBounds="True"
+            SnapsToDevicePixels="True">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="54" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0"
+                    Background="#FF24272B"
+                    CornerRadius="13,13,0,0"
+                    MouseLeftButtonDown="TitleBar_OnMouseLeftButtonDown">
+                <Grid Margin="17,0,9,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Image Width="24" Height="24" Margin="0,0,10,0"
+                           Source="Assets/FuseTransparentLogo.png"
+                           Stretch="Uniform" />
+                    <TextBlock Grid.Column="1"
+                               Text="À propos de Fuze"
+                               Foreground="#FFF4F5F7"
+                               FontSize="16"
+                               FontWeight="SemiBold"
+                               VerticalAlignment="Center" />
+                    <Button Grid.Column="2"
+                            Width="34" Height="34"
+                            Style="{StaticResource DialogCloseWindowButton}"
+                            Content="&#xE8BB;"
+                            ToolTip="Fermer"
+                            Click="Close_OnClick" />
+                </Grid>
+            </Border>
+
+            <ScrollViewer Grid.Row="1"
+                          Margin="22,20,22,10"
+                          VerticalScrollBarVisibility="Auto"
+                          HorizontalScrollBarVisibility="Disabled">
+                <ScrollViewer.Resources>
+                    <!-- Force le gabarit Fuse : le pouce reste une pastille arrondie
+                         même lorsque le ScrollViewer est créé par son modèle WPF. -->
+                    <Style TargetType="{x:Type ScrollBar}"
+                           BasedOn="{StaticResource FuzeScrollBar}" />
+                </ScrollViewer.Resources>
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Border Width="72" Height="72"
+                                Background="#FF242A33"
+                                BorderBrush="#FF414A57"
+                                BorderThickness="1"
+                                CornerRadius="16"
+                                Padding="12">
+                            <Image Source="Assets/FuseTransparentLogo.png"
+                                   Stretch="Uniform" />
+                        </Border>
+                        <StackPanel Margin="17,2,0,0" VerticalAlignment="Center">
+                            <TextBlock Text="Fuze"
+                                       Foreground="#FFF4F5F7"
+                                       FontSize="28"
+                                       FontWeight="SemiBold" />
+                            <TextBlock Text="Version 1.0.0 • Windows x64"
+                                       Foreground="#FFFF7A45"
+                                       FontSize="13"
+                                       FontWeight="SemiBold" />
+                            <TextBlock Text="Créé par ImWeLLaN"
+                                       Foreground="#FF9EA5AF"
+                                       FontSize="12"
+                                       Margin="0,2,0,0" />
+                            <TextBlock Text="Lecteur multimédia libre, pensé pour une lecture fluide."
+                                       Foreground="#FFB8BEC7"
+                                       FontSize="11.5"
+                                       Margin="0,4,0,0"
+                                       TextWrapping="Wrap" />
+                        </StackPanel>
+                    </StackPanel>
+
+                    <Border Margin="0,22,0,0"
+                            Padding="14"
+                            Background="#141F252E"
+                            BorderBrush="#FF2C333D"
+                            BorderThickness="1"
+                            CornerRadius="9">
+                        <StackPanel>
+                            <TextBlock Text="Moteur multimédia"
+                                       Foreground="#FFFF7A45"
+                                       FontSize="13"
+                                       FontWeight="SemiBold" />
+                            <TextBlock Margin="0,6,0,0"
+                                       Text="Fuze s’appuie sur libmpv, le moteur qui assure le décodage, la synchronisation et le rendu vidéo."
+                                       Foreground="#FFD5D9DE"
+                                       FontSize="12.5"
+                                       TextWrapping="Wrap" />
+                            <TextBlock Margin="0,8,0,0"
+                                       Text="Le rendu GPU utilise la pile gpu-next avec une sortie Direct3D 11 et un décodage matériel automatique sécurisé lorsque le système le permet."
+                                       Foreground="#FFB8BEC7"
+                                       FontSize="11.5"
+                                       TextWrapping="Wrap" />
+                            <TextBlock Margin="0,8,0,0"
+                                       Text="La bibliothèque native libmpv-2.dll est chargée depuis le dossier de Fuze et accompagne la publication de l’application."
+                                       Foreground="#FF9EA5AF"
+                                       FontSize="11.5"
+                                       TextWrapping="Wrap" />
+                            <TextBlock Margin="0,8,0,0"
+                                       Text="mpv / libmpv est distribué sous la licence GNU GPL, version 2 ou ultérieure (GPL-2.0-or-later). Les textes de licence et les avis de copyright sont fournis avec Fuze."
+                                       Foreground="#FF9EA5AF"
+                                       FontSize="11.5"
+                                       TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+
+                    <Border Margin="0,10,0,0"
+                            Padding="14"
+                            Background="#141F252E"
+                            BorderBrush="#FF2C333D"
+                            BorderThickness="1"
+                            CornerRadius="9">
+                        <StackPanel>
+                            <TextBlock Text="Projet"
+                                       Foreground="#FFFF7A45"
+                                       FontSize="13"
+                                       FontWeight="SemiBold" />
+                            <TextBlock Margin="0,6,0,0"
+                                       Text="Fuze est un lecteur multimédia libre en développement. Son objectif principal est de fournir une lecture locale rapide, stable et agréable, tout en ajoutant le plus de fonctionnalités utiles à l’utilisateur."
+                                       Foreground="#FFD5D9DE"
+                                       FontSize="12.5"
+                                       TextWrapping="Wrap" />
+                            <TextBlock Margin="0,8,0,0"
+                                       Text="Le projet est développé par ImWeLLaN et sera publié sur GitHub avec ses composants et avis de licence."
+                                       Foreground="#FF9EA5AF"
+                                       FontSize="11.5"
+                                       TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+
+                    <Border Margin="0,10,0,0"
+                            Padding="14"
+                            Background="#141F252E"
+                            BorderBrush="#FF2C333D"
+                            BorderThickness="1"
+                            CornerRadius="9">
+                        <StackPanel>
+                            <TextBlock Text="FONCTIONNALITÉS PRINCIPALES"
+                                       Foreground="#FFFF7A45"
+                                       FontSize="13"
+                                       FontWeight="SemiBold" />
+                            <TextBlock Margin="0,7,0,0"
+                                       Text="• Lecture de fichiers, dossiers et disques pris en charge par le moteur multimédia intégré."
+                                       Foreground="#FFD5D9DE" FontSize="11.8" TextWrapping="Wrap" />
+                            <TextBlock Margin="0,5,0,0"
+                                       Text="• File des médias persistante, lecture augmentée, reprise de lecture et navigation naturelle entre chapitres et épisodes."
+                                       Foreground="#FFD5D9DE" FontSize="11.8" TextWrapping="Wrap" />
+                            <TextBlock Margin="0,5,0,0"
+                                       Text="• Sélection des pistes vidéo, audio et sous-titres, ajout de sous-titres externes et synchronisation au milliseconde près."
+                                       Foreground="#FFD5D9DE" FontSize="11.8" TextWrapping="Wrap" />
+                            <TextBlock Margin="0,5,0,0"
+                                       Text="• Contrôles de volume, modes audio, vitesse de lecture, zoom, format d’image et capture d’écran."
+                                       Foreground="#FFD5D9DE" FontSize="11.8" TextWrapping="Wrap" />
+                            <TextBlock Margin="0,5,0,0"
+                                       Text="• Chapitres, aperçu de la barre temporelle, titres de pistes et informations détaillées sur les médias."
+                                       Foreground="#FFD5D9DE" FontSize="11.8" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+
+                    <Border Margin="0,10,0,0"
+                            Padding="14"
+                            Background="#141F252E"
+                            BorderBrush="#FF2C333D"
+                            BorderThickness="1"
+                            CornerRadius="9">
+                        <StackPanel>
+                            <TextBlock Text="AMÉLIORATIONS À VENIR"
+                                       Foreground="#FFFF7A45"
+                                       FontSize="13"
+                                       FontWeight="SemiBold" />
+                            <TextBlock Margin="0,7,0,0"
+                                       Text="Le projet continuera d’évoluer après la version 1.0.0. Les prochaines améliorations envisagées concernent notamment l’édition vidéo, le découpage de fichiers, la conversion et un suivi de lecture plus complet."
+                                       Foreground="#FFD5D9DE" FontSize="11.8" TextWrapping="Wrap" />
+                            <TextBlock Margin="0,5,0,0"
+                                       Text="Ces fonctions resteront complémentaires : la priorité de Fuze demeure une lecture fluide et fiable."
+                                       Foreground="#FF9EA5AF" FontSize="11.5" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+
+                    <Border Margin="0,10,0,0"
+                            Padding="14"
+                            Background="#141F252E"
+                            BorderBrush="#FF2C333D"
+                            BorderThickness="1"
+                            CornerRadius="9">
+                        <StackPanel>
+                            <TextBlock Text="INTERFACE ET PERSONNALISATION"
+                                       Foreground="#FFFF7A45"
+                                       FontSize="13"
+                                       FontWeight="SemiBold" />
+                            <TextBlock Margin="0,7,0,0"
+                                       Text="La barre supérieure et la barre inférieure peuvent se rétracter automatiquement et rester accessibles au mouvement de la souris."
+                                       Foreground="#FFD5D9DE" FontSize="11.8" TextWrapping="Wrap" />
+                            <TextBlock Margin="0,5,0,0"
+                                       Text="Les mises en page de la barre inférieure sont personnalisables : commandes visibles, ordre, espacement, position centrale et modèles enregistrés."
+                                       Foreground="#FFD5D9DE" FontSize="11.8" TextWrapping="Wrap" />
+                            <TextBlock Margin="0,5,0,0"
+                                       Text="Les raccourcis clavier, la molette, le comportement des clics et les styles de volume sont configurables dans les paramètres."
+                                       Foreground="#FFD5D9DE" FontSize="11.8" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+
+                    <Border Margin="0,10,0,0"
+                            Padding="14"
+                            Background="#141F252E"
+                            BorderBrush="#FF2C333D"
+                            BorderThickness="1"
+                            CornerRadius="9">
+                        <StackPanel>
+                            <TextBlock Text="DONNÉES ET LICENCES"
+                                       Foreground="#FFFF7A45"
+                                       FontSize="13"
+                                       FontWeight="SemiBold" />
+                            <TextBlock Margin="0,7,0,0"
+                                       Text="Les préférences, l’historique, la file des médias et les mises en page sont conservés localement sur l’ordinateur."
+                                       Foreground="#FFD5D9DE" FontSize="11.8" TextWrapping="Wrap" />
+                            <TextBlock Margin="0,5,0,0"
+                                       Text="Les avis de copyright et les textes de licence sont installés avec Fuze dans les dossiers Licenses et THIRD-PARTY-NOTICES.txt."
+                                       Foreground="#FFD5D9DE" FontSize="11.8" TextWrapping="Wrap" />
+                            <TextBlock Margin="0,5,0,0"
+                                       Text="Les icônes de drapeaux proviennent de flag-icons et sont distribuées sous licence MIT."
+                                       Foreground="#FFD5D9DE" FontSize="11.8" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+
+                    <Border Margin="0,10,0,0"
+                            Padding="14"
+                            Background="#141F252E"
+                            BorderBrush="#FF2C333D"
+                            BorderThickness="1"
+                            CornerRadius="9">
+                        <StackPanel>
+                            <TextBlock Text="LIENS DU PROJET"
+                                       Foreground="#FFFF7A45"
+                                       FontSize="13"
+                                       FontWeight="SemiBold" />
+                            <TextBlock Margin="0,7,0,0" Foreground="#FFD5D9DE" FontSize="11.8">
+                                <Run Text="Site web : " />
+                                <Hyperlink NavigateUri="https://github.com/ImWellan/Fuse-Player"
+                                           RequestNavigate="ProjectLink_OnRequestNavigate"
+                                           Foreground="#FFFF9A48">github.com/ImWellan/Fuse-Player</Hyperlink>
+                            </TextBlock>
+                            <TextBlock Margin="0,5,0,0" Foreground="#FFD5D9DE" FontSize="11.8">
+                                <Run Text="Signaler un problème : " />
+                                <Hyperlink NavigateUri="https://github.com/ImWellan/Fuse-Player/issues"
+                                           RequestNavigate="ProjectLink_OnRequestNavigate"
+                                           Foreground="#FFFF9A48">GitHub Issues</Hyperlink>
+                            </TextBlock>
+                            <TextBlock Margin="0,8,0,0"
+                                       Text="Merci d’utiliser Fuze et de contribuer à son amélioration."
+                                       Foreground="#FF9EA5AF" FontSize="11.5" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </ScrollViewer>
+
+            <StackPanel Grid.Row="2"
+                        Margin="22,0,22,18"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Right">
+                <Button Content="Fermer"
+                        Style="{StaticResource TextButton}"
+                        IsDefault="True"
+                        Click="Close_OnClick" />
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

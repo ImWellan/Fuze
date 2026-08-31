@@ -1,0 +1,637 @@
+<Window x:Class="FusePlayer.BottomBarLayoutDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mise en page de la barre inférieure"
+        Width="860"
+        SizeToContent="Height"
+        MinWidth="720"
+        MinHeight="620"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        ShowInTaskbar="False"
+        Background="Transparent"
+        Cursor="Arrow"
+        ForceCursor="False"
+        PreviewKeyDown="Window_OnPreviewKeyDown"
+        FontFamily="Segoe UI Variable Text">
+    <Window.Resources>
+        <Style x:Key="DialogButton" TargetType="Button">
+            <Setter Property="Height" Value="34" />
+            <Setter Property="Padding" Value="12,0" />
+            <Setter Property="Margin" Value="4,0,0,0" />
+            <Setter Property="Foreground" Value="#FFE8EBEF" />
+            <Setter Property="Background" Value="#FF242A33" />
+            <Setter Property="BorderBrush" Value="#FF454F5D" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="FontSize" Value="11.5" />
+            <Setter Property="Cursor" Value="Arrow" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="6">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"
+                                              TextElement.Foreground="{TemplateBinding Foreground}" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF343C48" />
+                                <Setter Property="BorderBrush" Value="#FFFF9A48" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#FF4A3021" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="DialogToggle" TargetType="CheckBox">
+            <Setter Property="Width" Value="46" />
+            <Setter Property="Height" Value="26" />
+            <Setter Property="Cursor" Value="Arrow" />
+            <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="CheckBox">
+                        <Grid Width="46" Height="26" Background="Transparent">
+                            <Border x:Name="Track" Height="24" VerticalAlignment="Center"
+                                    Background="#FF343B45" BorderBrush="#FF4A535F"
+                                    BorderThickness="1" CornerRadius="12" />
+                            <Ellipse x:Name="Knob" Width="18" Height="18" Margin="4,0"
+                                     HorizontalAlignment="Left" VerticalAlignment="Center"
+                                     Fill="#FFD9DCE1" />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Track" Property="BorderBrush" Value="#FF737C88" />
+                            </Trigger>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="Track" Property="Background" Value="#FFFF7A45" />
+                                <Setter TargetName="Track" Property="BorderBrush" Value="#FFFF9B70" />
+                                <Setter TargetName="Knob" Property="HorizontalAlignment" Value="Right" />
+                                <Setter TargetName="Knob" Property="Fill" Value="#FF17100B" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Opacity" Value="0.42" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="DialogListItem" TargetType="ListBoxItem">
+            <Setter Property="Foreground" Value="#FFE8EBEF" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Padding" Value="9,6" />
+            <Setter Property="Margin" Value="2,1" />
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border x:Name="ItemBorder" Background="{TemplateBinding Background}"
+                                CornerRadius="5" Padding="{TemplateBinding Padding}">
+                            <ContentPresenter TextElement.Foreground="{TemplateBinding Foreground}" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="ItemBorder" Property="Background" Value="#FF3A2A20" />
+                                <Setter Property="Foreground" Value="#FFFFB276" />
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ItemBorder" Property="Background" Value="#FF252B34" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Contrôles de sélection Fuse : aucune liste native blanche de Windows. -->
+        <Style x:Key="DialogComboBox" TargetType="ComboBox">
+            <Setter Property="Height" Value="38" />
+            <Setter Property="MinWidth" Value="180" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="HorizontalContentAlignment" Value="Left" />
+            <Setter Property="Background" Value="#FF0C1016" />
+            <Setter Property="Foreground" Value="#FFF1F2F4" />
+            <Setter Property="BorderBrush" Value="#FF3D4550" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Cursor" Value="Arrow" />
+            <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+            <Setter Property="SnapsToDevicePixels" Value="True" />
+            <Setter Property="UseLayoutRounding" Value="True" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ComboBox">
+                        <Grid Height="{TemplateBinding Height}">
+                            <ToggleButton x:Name="DropDownToggle" Focusable="False"
+                                          Height="{TemplateBinding Height}"
+                                          VerticalAlignment="Stretch"
+                                          IsChecked="{Binding IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay}"
+                                          ClickMode="Press" Cursor="Arrow">
+                                <ToggleButton.Template>
+                                    <ControlTemplate TargetType="ToggleButton">
+                                        <Border x:Name="ComboBorder" Background="#FF0C1016"
+                                                BorderBrush="#FF3D4550" BorderThickness="1" CornerRadius="7"
+                                                Height="{TemplateBinding Height}"
+                                                VerticalAlignment="Stretch">
+                                            <Grid Margin="10,0,9,0">
+                                                <ContentPresenter Margin="0,0,25,0"
+                                                                  HorizontalAlignment="Left" VerticalAlignment="Center"
+                                                                  Content="{Binding SelectionBoxItem, RelativeSource={RelativeSource AncestorType=ComboBox}}"
+                                                                  ContentTemplate="{Binding SelectionBoxItemTemplate, RelativeSource={RelativeSource AncestorType=ComboBox}}"
+                                                                  TextElement.Foreground="#FFF1F2F4" />
+                                                <Path HorizontalAlignment="Right" VerticalAlignment="Center"
+                                                      Data="M 0 0 L 5 5 L 10 0" Stroke="#FFAEB4BD"
+                                                      StrokeThickness="1.6" StrokeStartLineCap="Round" StrokeEndLineCap="Round" />
+                                            </Grid>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter TargetName="ComboBorder" Property="BorderBrush" Value="#FF707986" />
+                                            </Trigger>
+                                            <Trigger Property="IsChecked" Value="True">
+                                                <Setter TargetName="ComboBorder" Property="BorderBrush" Value="#FFFF8A42" />
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </ToggleButton.Template>
+                            </ToggleButton>
+                            <Popup x:Name="PART_Popup" Placement="Bottom"
+                                   IsOpen="{TemplateBinding IsDropDownOpen}"
+                                   AllowsTransparency="True" Focusable="False" PopupAnimation="Fade">
+                                <Border Margin="0,4,0,0"
+                                        MinWidth="{Binding ActualWidth, RelativeSource={RelativeSource TemplatedParent}}"
+                                        MaxHeight="270" Padding="4" Background="#FF171C24"
+                                        BorderBrush="#FF4B5460" BorderThickness="1" CornerRadius="8">
+                                    <ScrollViewer CanContentScroll="True" VerticalScrollBarVisibility="Auto">
+                                        <ItemsPresenter />
+                                    </ScrollViewer>
+                                </Border>
+                            </Popup>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Opacity" Value="0.45" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="ComboBoxItem">
+            <Setter Property="MinHeight" Value="34" />
+            <Setter Property="Padding" Value="10,6" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="#FFF1F2F4" />
+            <Setter Property="Cursor" Value="Arrow" />
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ComboBoxItem">
+                        <Border x:Name="ItemBorder" Padding="{TemplateBinding Padding}"
+                                Background="{TemplateBinding Background}" CornerRadius="5">
+                            <ContentPresenter VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsHighlighted" Value="True">
+                                <Setter TargetName="ItemBorder" Property="Background" Value="#24FFFFFF" />
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="ItemBorder" Property="Background" Value="#36FF7A45" />
+                                <Setter Property="Foreground" Value="#FFFFB187" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="CaretBrush" Value="#FFFF8A42" />
+            <Setter Property="SelectionBrush" Value="#88FF7A45" />
+            <Setter Property="SelectionTextBrush" Value="#FFF4F5F7" />
+            <Setter Property="SnapsToDevicePixels" Value="True" />
+            <Setter Property="UseLayoutRounding" Value="True" />
+        </Style>
+
+        <Style x:Key="ResizeThumbStyle" TargetType="Thumb">
+            <Setter Property="Focusable" Value="False" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Thumb">
+                        <Border Background="{TemplateBinding Background}" />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="AvailableCommandButton" TargetType="Button"
+               BasedOn="{StaticResource DialogButton}">
+            <Setter Property="Background" Value="#FF242A33" />
+            <Setter Property="BorderBrush" Value="#FF454F5D" />
+            <Setter Property="Foreground" Value="#FFE8EBEF" />
+        </Style>
+
+        <DataTemplate x:Key="DialogListItemTemplate">
+            <TextBlock Text="{Binding Label}" FontSize="11.5" TextTrimming="CharacterEllipsis" />
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid ClipToBounds="True">
+    <Border Background="#FF171C24" BorderBrush="#FF3D444F" BorderThickness="1" CornerRadius="12" ClipToBounds="True">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="48" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="66" />
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Background="#FF24272B" CornerRadius="11,11,0,0"
+                    MouseLeftButtonDown="TitleBar_OnMouseLeftButtonDown">
+                <Grid Background="Transparent">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="44" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Margin="18,0,8,0" VerticalAlignment="Center">
+                        <TextBlock Text="MISE EN PAGE DE LA BARRE INFÉRIEURE"
+                                   Foreground="#FFF4F5F7" FontSize="15" FontWeight="SemiBold" />
+                        <TextBlock Text="Glissez les commandes directement sur la vraie barre du lecteur."
+                                   Foreground="#FF9098A3" FontSize="10.5" />
+                    </StackPanel>
+                    <Button Grid.Column="1" Content="&#xE8BB;" FontFamily="Segoe Fluent Icons"
+                            FontSize="16" Style="{StaticResource DialogCloseWindowButton}"
+                            Click="Cancel_OnClick" />
+                </Grid>
+            </Border>
+
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Disabled">
+                <StackPanel Margin="24,18,24,20">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,8">
+                            <Button x:Name="UndoLayoutButton" Content="↶"
+                                    Style="{StaticResource DialogButton}" Width="38" Margin="0"
+                                    FontFamily="Segoe UI Symbol" FontSize="18"
+                                    ToolTip="Retour : revenir au placement précédent"
+                                    Click="UndoLayout_OnClick" />
+                            <Button x:Name="RedoLayoutButton" Content="↷"
+                                    Style="{StaticResource DialogButton}" Width="38" Margin="6,0,0,0"
+                                    FontFamily="Segoe UI Symbol" FontSize="18"
+                                    ToolTip="Avancer : rétablir le placement annulé"
+                                    Click="RedoLayout_OnClick" />
+                        </StackPanel>
+                        <Grid Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="MODÈLE DE DÉPART" Foreground="#FFFF9A48"
+                                       FontSize="11.5" FontWeight="SemiBold"
+                                       VerticalAlignment="Center" />
+                            <ComboBox x:Name="PresetComboBox" Grid.Column="1" Width="180" Height="38"
+                                       VerticalAlignment="Center"
+                                      Background="#FF0C1016" Foreground="#FFF4F5F7"
+                                      BorderBrush="#FF3D4550" BorderThickness="1"
+                                      Style="{StaticResource DialogComboBox}"
+                                      SelectionChanged="PresetComboBox_OnSelectionChanged">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding DisplayName}" VerticalAlignment="Center" />
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                            <TextBlock Grid.Row="1" Grid.ColumnSpan="2"
+                                       Text="Choisissez la base de votre nouvelle interface. Le modèle original ne sera jamais modifié."
+                                       Foreground="#FF9EA5AF" FontSize="11" Margin="0,4,0,0" />
+                        </Grid>
+                    </Grid>
+
+                    <StackPanel Visibility="Collapsed">
+                    <TextBlock Text="LIGNES DE LA BARRE" Foreground="#FFFF9A48" FontSize="11.5" FontWeight="SemiBold" />
+                    <TextBlock Text="Glissez une commande sur la barre du lecteur, ou utilisez les flèches pour ajuster sa ligne."
+                               Foreground="#FF9EA5AF" FontSize="11" Margin="0,3,0,10" />
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="14" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="14" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Text="GAUCHE" Foreground="#FFFFB276" FontSize="10.5" FontWeight="SemiBold" />
+                            <ListBox x:Name="LeftListBox" Height="190" Margin="0,6,0,0"
+                                     Background="#FF0C1016" BorderBrush="#FF343C47" BorderThickness="1"
+                                     ItemContainerStyle="{StaticResource DialogListItem}"
+                                     ItemTemplate="{StaticResource DialogListItemTemplate}"
+                                     SelectionChanged="LayoutList_OnSelectionChanged"
+                                     AllowDrop="True" PreviewMouseLeftButtonDown="LayoutList_OnPreviewMouseLeftButtonDown"
+                                     PreviewMouseMove="LayoutList_OnPreviewMouseMove" DragOver="LayoutList_OnDragOver"
+                                     Drop="LayoutList_OnDrop" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="2">
+                            <TextBlock Text="CENTRE" Foreground="#FFFFB276" FontSize="10.5" FontWeight="SemiBold" />
+                            <ListBox x:Name="CenterListBox" Height="190" Margin="0,6,0,0"
+                                     Background="#FF0C1016" BorderBrush="#FF343C47" BorderThickness="1"
+                                     ItemContainerStyle="{StaticResource DialogListItem}"
+                                     ItemTemplate="{StaticResource DialogListItemTemplate}"
+                                     SelectionChanged="LayoutList_OnSelectionChanged"
+                                     AllowDrop="True" PreviewMouseLeftButtonDown="LayoutList_OnPreviewMouseLeftButtonDown"
+                                     PreviewMouseMove="LayoutList_OnPreviewMouseMove" DragOver="LayoutList_OnDragOver"
+                                     Drop="LayoutList_OnDrop" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="4">
+                            <TextBlock Text="DROITE" Foreground="#FFFFB276" FontSize="10.5" FontWeight="SemiBold" />
+                            <ListBox x:Name="RightListBox" Height="190" Margin="0,6,0,0"
+                                     Background="#FF0C1016" BorderBrush="#FF343C47" BorderThickness="1"
+                                     ItemContainerStyle="{StaticResource DialogListItem}"
+                                     ItemTemplate="{StaticResource DialogListItemTemplate}"
+                                     SelectionChanged="LayoutList_OnSelectionChanged"
+                                     AllowDrop="True" PreviewMouseLeftButtonDown="LayoutList_OnPreviewMouseLeftButtonDown"
+                                     PreviewMouseMove="LayoutList_OnPreviewMouseMove" DragOver="LayoutList_OnDragOver"
+                                     Drop="LayoutList_OnDrop" />
+                        </StackPanel>
+                    </Grid>
+                    </StackPanel>
+
+                    <Grid Margin="0,14,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="COMMANDES DISPONIBLES" Foreground="#FFFF9A48" FontSize="11.5"
+                                   FontWeight="SemiBold" VerticalAlignment="Center" />
+                    </Grid>
+                    <Grid Margin="0,3,0,2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <StackPanel>
+                            <TextBlock Text="Choisissez une commande, puis ajoutez-la ou retirez-la de la barre."
+                                       Foreground="#FF9EA5AF" FontSize="11" TextWrapping="Wrap" />
+                            <TextBlock x:Name="BuiltInPresetNotice"
+                                       Text="Vous modifiez une copie. Donnez-lui un nouveau nom avant de la créer."
+                                       Foreground="#FFFFB276" FontSize="11" Margin="0,2,0,0"
+                                       TextWrapping="Wrap" />
+                        </StackPanel>
+                        <Grid Grid.Row="1" Margin="0,8,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <ComboBox x:Name="AvailableItemsComboBox"
+                                      Height="38"
+                                      MinWidth="180"
+                                      SelectedValuePath="Id"
+                                      Style="{StaticResource DialogComboBox}"
+                                      ToolTip="Sélectionnez une commande disponible">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Label}" VerticalAlignment="Center"
+                                                   TextTrimming="CharacterEllipsis" />
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                            <Button x:Name="AddAvailableItemButton" Grid.Column="1" Content="Ajouter"
+                                    Style="{StaticResource AvailableCommandButton}"
+                                    Height="34" Padding="11,0" Margin="8,0,0,0"
+                                    ToolTip="Ajouter la commande sélectionnée à la barre"
+                                    Click="AddSelectedAvailableItem_OnClick" />
+                            <Button x:Name="RemoveAvailableItemButton" Grid.Column="2" Content="Retirer"
+                                    Style="{StaticResource AvailableCommandButton}"
+                                    Height="34" Padding="11,0" Margin="5,0,0,0"
+                                    ToolTip="Retirer la commande sélectionnée de la barre"
+                                    Click="RemoveSelectedAvailableItem_OnClick" />
+                        </Grid>
+                    </Grid>
+
+                    <Grid Margin="0,11,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Margin="0,0,18,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel VerticalAlignment="Center">
+                                <TextBlock Text="Déplacement libre" Foreground="#FFF0F1F3" FontSize="12" />
+                                <TextBlock Text="L’item tenu passe par-dessus les autres; ils se déplacent seulement au relâchement."
+                                           Foreground="#FF858C97" FontSize="10.5" TextWrapping="Wrap" />
+                            </StackPanel>
+                            <CheckBox x:Name="FreeDragModeCheckBox" Grid.Column="1"
+                                      Style="{StaticResource DialogToggle}"
+                                      VerticalAlignment="Center" Margin="10,0,0,0"
+                                      ToolTip="Activer ou désactiver le déplacement libre pendant l’édition"
+                                      Checked="FreeDragModeCheckBox_OnChanged"
+                                      Unchecked="FreeDragModeCheckBox_OnChanged" />
+                        </Grid>
+                        <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                            <TextBlock Text="Espacement automatique" Foreground="#FF9EA5AF" FontSize="11.5"
+                                       VerticalAlignment="Center" Margin="0,0,9,0" />
+                            <TextBox x:Name="SpacingTextBox" Width="94" Height="38" Padding="9,5"
+                                     Background="#FF0C1016" Foreground="#FFF4F5F7" BorderBrush="#FF3D4550"
+                                     BorderThickness="1" FontFamily="Cascadia Mono" FontSize="13"
+                                     HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                     TextChanged="SpacingTextBox_OnTextChanged" />
+                            <TextBlock Text="Position horizontale centrale" Foreground="#FF9EA5AF" FontSize="11.5"
+                                       VerticalAlignment="Center" Margin="14,0,9,0"
+                                       ToolTip="Déplace la barre horizontale centrale en pixels; les valeurs négatives la remontent." />
+                            <TextBox x:Name="CenterBarOffsetTextBox" Width="94" Height="38" Padding="9,5"
+                                     Background="#FF0C1016" Foreground="#FFF4F5F7" BorderBrush="#FF3D4550"
+                                     BorderThickness="1" FontFamily="Cascadia Mono" FontSize="13"
+                                     HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                     ToolTip="Décalage vertical de la ligne centrale (-34 à 18 pixels)"
+                                     TextChanged="CenterBarOffsetTextBox_OnTextChanged" />
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Margin="0,10,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="Bouton verrouillé au centre" Foreground="#FFF0F1F3" FontSize="12" />
+                            <TextBlock Text="Garde une commande fixe au centre et place les autres autour d’elle."
+                                       Foreground="#FF858C97" FontSize="10.5" TextWrapping="Wrap" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center"
+                                    Margin="10,0,0,0">
+                            <ComboBox x:Name="CenterLockedItemComboBox" Width="180" Height="38"
+                                      Style="{StaticResource DialogComboBox}"
+                                      SelectedValuePath="Id"
+                                      ToolTip="Choisissez une commande présente sur la barre à garder au centre"
+                                      SelectionChanged="CenterLockedItemComboBox_OnSelectionChanged">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Label}" VerticalAlignment="Center"
+                                                   TextTrimming="CharacterEllipsis" />
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                            <Button x:Name="ClearCenterLockButton" Content="Déverrouiller"
+                                    Style="{StaticResource DialogButton}" Height="34" Padding="10,0"
+                                    ToolTip="Retirer le verrouillage du centre"
+                                    Click="ClearCenterLockButton_OnClick" />
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Margin="0,10,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="Séparer les deux temps" Foreground="#FFF0F1F3" FontSize="12" />
+                            <TextBlock Text="Retire le séparateur central et transforme chaque compteur en item indépendant."
+                                       Foreground="#FF858C97" FontSize="10.5" TextWrapping="Wrap" />
+                        </StackPanel>
+                        <CheckBox x:Name="SplitTimelineCheckBox" Grid.Column="1"
+                                  Style="{StaticResource DialogToggle}"
+                                  VerticalAlignment="Center"
+                                  ToolTip="Séparer ou regrouper les deux compteurs de temps"
+                                  Checked="SplitTimelineCheckBox_OnChanged"
+                                  Unchecked="SplitTimelineCheckBox_OnChanged" />
+                    </Grid>
+
+                    <Grid Margin="0,10,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="Largeur du titre du média" Foreground="#FFF0F1F3" FontSize="12" />
+                            <TextBlock Text="Agrandit ou réduit l’espace réservé au nom de l’épisode dans la barre."
+                                       Foreground="#FF858C97" FontSize="10.5" TextWrapping="Wrap" />
+                        </StackPanel>
+                        <TextBox x:Name="TitleWidthTextBox" Grid.Column="1" Width="94" Height="38" Padding="9,5"
+                                 Background="#FF0C1016" Foreground="#FFF4F5F7" BorderBrush="#FF3D4550"
+                                 BorderThickness="1" FontFamily="Cascadia Mono" FontSize="13"
+                                 HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                 ToolTip="Largeur du nom du média, de 80 à 800 pixels"
+                                 TextChanged="TitleWidthTextBox_OnTextChanged" />
+                    </Grid>
+
+                    <Grid Margin="0,10,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="Masquer les barres verticales" Foreground="#FFF0F1F3"
+                                       FontSize="12" />
+                            <TextBlock Text="Masque les repères verticaux de la barre inférieure (25 %, 50 % et 75 %)."
+                                       Foreground="#FF858C97" FontSize="10.5" TextWrapping="Wrap" />
+                        </StackPanel>
+                        <CheckBox x:Name="HideVerticalGuidesCheckBox" Grid.Column="1"
+                                  Style="{StaticResource DialogToggle}"
+                                  VerticalAlignment="Center"
+                                  ToolTip="Masquer ou afficher les lignes de repère verticales"
+                                  Checked="HideVerticalGuidesCheckBox_OnChanged"
+                                  Unchecked="HideVerticalGuidesCheckBox_OnChanged" />
+                    </Grid>
+
+                    <Grid Margin="0,10,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="Masquer la barre horizontale" Foreground="#FFF0F1F3"
+                                       FontSize="12" />
+                            <TextBlock Text="Masque la ligne centrale orange de la barre inférieure."
+                                       Foreground="#FF858C97" FontSize="10.5" TextWrapping="Wrap" />
+                        </StackPanel>
+                        <CheckBox x:Name="HideHorizontalCenterGuideCheckBox" Grid.Column="1"
+                                  Style="{StaticResource DialogToggle}"
+                                  VerticalAlignment="Center"
+                                  ToolTip="Masquer ou afficher la ligne centrale horizontale"
+                                  Checked="HideHorizontalCenterGuideCheckBox_OnChanged"
+                                  Unchecked="HideHorizontalCenterGuideCheckBox_OnChanged" />
+                    </Grid>
+
+                    <Grid Margin="0,13,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid>
+                            <TextBox x:Name="PresetNameTextBox" Height="34" Padding="10,0"
+                                     Background="#FF0C1016" Foreground="#FFF4F5F7" BorderBrush="#FF3D4550"
+                                     BorderThickness="1" FontSize="12.5" ToolTip="Nom de la nouvelle interface"
+                                     HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                                     TextChanged="PresetNameTextBox_OnTextChanged" />
+                            <TextBlock Text="Nom de l’interface"
+                                       Foreground="#FF727A86" FontSize="12.5"
+                                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                                       IsHitTestVisible="False">
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Text, ElementName=PresetNameTextBox}" Value="">
+                                                <Setter Property="Visibility" Value="Visible" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+                        </Grid>
+                        <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="8,0,0,0"
+                                    Visibility="Collapsed">
+                            <Button x:Name="SavePresetButton" Content="Enregistrer" Style="{StaticResource DialogButton}"
+                                    ToolTip="Enregistrer ce modèle" Click="SavePreset_OnClick" />
+                            <Button Content="Enregistrer sous" Style="{StaticResource DialogButton}"
+                                    ToolTip="Créer un nouveau modèle" Click="SavePresetAs_OnClick" />
+                            <Button x:Name="DeletePresetButton" Content="Supprimer" Style="{StaticResource DialogButton}"
+                                    ToolTip="Supprimer le modèle personnalisé" Click="DeletePreset_OnClick" />
+                        </StackPanel>
+                    </Grid>
+                    <TextBlock x:Name="PresetNameErrorTextBlock"
+                               Margin="0,5,0,0" Foreground="#FFFF8A42" FontSize="10.5"
+                               Text="Entrez un nouveau nom pour créer cette interface."
+                               Visibility="Collapsed" />
+                </StackPanel>
+            </ScrollViewer>
+
+            <Border Grid.Row="2" BorderBrush="#663C444F" BorderThickness="0,1,0,0"
+                    Background="#8C141920" CornerRadius="0,0,11,11">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="20,0">
+                    <Button Content="Annuler" Style="{StaticResource DialogButton}" Click="Cancel_OnClick" />
+                    <Button Content="Créer" Style="{StaticResource DialogButton}"
+                            Background="#FFFF8A42" BorderBrush="#FFFF8A42" Foreground="#FF17100B"
+                            FontWeight="SemiBold" Click="Apply_OnClick" />
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Border>
+
+    </Grid>
+</Window>
