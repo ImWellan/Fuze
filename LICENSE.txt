@@ -1,0 +1,19 @@
+Fuse Player License
+===================
+
+Copyright (c) 2026 ImWeLLaN.
+
+The Fuse Player application source is free software. You may redistribute it
+and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation, either version 2 of the License,
+or (at your option) any later version (GPL-2.0-or-later).
+
+Fuse Player is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+The complete GPLv2 text is provided in COPYING.txt. The native
+`Native/libmpv-2.dll` in the 2026-08-31 release is a separate third-party
+component whose effective FFmpeg build is GPLv3-or-later. Third-party licenses
+and notices are provided in the Licences Open folder and in
+THIRD-PARTY-NOTICES.txt.

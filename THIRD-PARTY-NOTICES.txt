@@ -1,0 +1,69 @@
+Fuse Player - Third-party component notices
+============================================
+
+Fuse Player includes the following third-party components. Their copyrights,
+licenses and source notices remain with their respective owners. The complete
+corresponding source trees are included in Third-Party Source and the core
+license texts are included in Licences Open.
+
+1. mpv / libmpv
+   Source revision: 2ee0b2a04b60d9a76ff2be053ba149f935c57855
+   Version: 0.41.0-UNKNOWN
+   Source: Third-Party Source/mpv
+   Project: https://github.com/mpv-player/mpv
+   mpv is GPL version 2 or later by default; individual files may use LGPL,
+   BSD, MIT or other compatible terms. See mpv/Copyright, mpv/LICENSE.GPL and
+   mpv/LICENSE.LGPL.
+
+2. FFmpeg
+   Source revision: 818cecc6e1afab932cf4d40ef0d7b8cd40311a17
+   Source: Third-Party Source/ffmpeg
+   Project and legal information: https://ffmpeg.org/legal.html
+   The exact configure report for this DLL enables --enable-gpl and
+   --enable-version3 and ends with "License: GPL version 3 or later". The
+   native FFmpeg portion is consequently GPLv3-or-later. The applicable
+   license texts are in Licences Open/ffmpeg-*.txt and in the FFmpeg source.
+
+3. OpenSSL
+   Source: Third-Party Source/openssl
+   License: Apache License 2.0
+   The complete text is in Licences Open/openssl-LICENSE.txt and in
+   openssl/LICENSE.txt in the source tree.
+
+4. curl and networking dependencies
+   curl, c-ares, Brotli, nghttp2, nghttp3, ngtcp2, libpsl, zstd and zlib are
+   used by the configured native build. Their source trees and original
+   license/notice files are under Third-Party Source. See
+   THIRD-PARTY-SOURCE-MANIFEST.md for the exact inventory and paths.
+
+5. FFmpeg codec, subtitle and media libraries
+   The configured build uses the libraries listed in
+   THIRD-PARTY-SOURCE-MANIFEST.md, including AOM, dav1d, SVT-AV1, uavs3d,
+   davs2, x264, x265, libvpx, libwebp, libjxl, libass, libbluray, DVD
+   libraries, LAME, Opus, Speex, Vorbis, FLAC, OpenMPT, rubberband, soxr,
+   zimg, zvbi, aribcaption, mysofa, modplug, font and color libraries, and
+   their transitive dependencies. Each source tree retains its own license
+   and notice files; do not replace those files with this summary.
+
+6. Video output and platform components
+   libplacebo, Vulkan, shaderc, SPIR-V Cross, SDL2, OpenAL Soft, VapourSynth,
+   SubRandR, sixel, LuaJIT, MuJS, libarchive, libvpl and the Intel, AMD,
+   NVIDIA and Windows API headers are present in the native source set. Their
+   original license files are preserved in the corresponding source trees.
+
+7. flag-icons
+   Copyright (c) 2013 Panayiotis Lipiridis.
+   License: MIT. See Licences Open/flag-icons-MIT.txt.
+   Project: https://github.com/lipis/flag-icons
+
+8. .NET runtime
+   The self-contained Windows publication includes redistributable .NET
+   runtime components. Microsoft terms and the runtime third-party notices
+   are included in Licences Open/dotnet-LICENSE.txt and
+   Licences Open/dotnet-ThirdPartyNotices.txt.
+
+The Fuse Player application source is copyright (c) 2026 ImWeLLaN. This file
+does not transfer or claim ownership of any third-party component. When
+redistributing Fuze.exe or Native/libmpv-2.dll, keep this notice, the Licences
+Open folder and the companion Code package (or an equivalent stable
+corresponding-source location) available to recipients.

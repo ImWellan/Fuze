@@ -1,0 +1,56 @@
+Fuse Player V1.0.0 - build record
+================================
+
+Application: Fuze.exe
+Project: FusePlayer.csproj
+Target framework: net10.0-windows
+Runtime identifier: win-x64
+Configuration: Release
+
+Build environment observed on 2026-08-31:
+- .NET SDK: 10.0.302
+- .NET SDK commit: 35b593bebf
+- .NET host runtime: 10.0.10
+- MSBuild: 18.6.11+35b593beb
+- Operating system: Windows 10.0.26200
+
+Release publication command:
+
+dotnet publish FusePlayer.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -p:IncludeAllContentForSelfExtract=true -p:Version=1.0.0
+
+Fuze.exe SHA-256:
+14328E50E5223F5B5B130BC35F3E2FDCB995BDBC3889BBE1EE752910DC7498E2
+
+Native\\libmpv-2.dll SHA-256:
+F709C7CA8B183BEC76B8158BF0C45C53018C63366750729352612F228FF7BDEA
+
+Native source revisions used by the DLL:
+- mpv/libmpv: 2ee0b2a04b60d9a76ff2be053ba149f935c57855 (0.41.0-UNKNOWN)
+- FFmpeg: 818cecc6e1afab932cf4d40ef0d7b8cd40311a17
+- mpv-winbuild-cmake: tag 20260814
+- target: x86_64-w64-mingw32
+
+The matching FFmpeg configure report ends with:
+License: GPL version 3 or later
+
+It enables --enable-gpl and --enable-version3. The exact external-library
+inventory is recorded in THIRD-PARTY-SOURCE-MANIFEST.md. The native DLL has no
+separate FFmpeg DLL imports; the FFmpeg objects are part of libmpv.
+
+Native build evidence is preserved in `Native Build Logs` in this Code
+package. It includes the FFmpeg and mpv configure output, the final mpv
+status, and the compatibility-target logs for ngtcp2, libvpl, libplacebo,
+libsixel and SubRandR.
+
+The source package includes the matching source trees and recipes under
+Third-Party Source. The older mpv-7b8915bc1d and ffmpeg-1d7b14f61 archives are
+historical artifacts and are not the revisions used by this DLL.
+
+The release executable is a self-contained single-file publication. The
+publish-win-x64.cmd script supplies the same single-file properties and writes
+the result to artifacts\\single before copying Fuze.exe to the package root.
+
+Packaging validation on 2026-08-31: an isolated Release build and an isolated
+self-contained single-file publish completed with 0 warnings and 0 errors.
+The published package executable was not replaced during this documentation
+pass, and Fuse was not launched or visually tested.

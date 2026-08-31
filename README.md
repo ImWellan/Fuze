@@ -1,80 +1,88 @@
-[README.md](https://github.com/user-attachments/files/31636714/README.md)
-# Fuse Player by ImWeLLaN
+# Fuse Player Code V1.0.0
 
-Fuse Player by ImWeLLaN is a Windows media player built around libmpv. It is designed first for smooth playback, with a clear and configurable Fuse interface.
+Fuse Player by ImWeLLaN is a Windows media player built around libmpv. It is
+designed first for reliable playback, with a configurable Fuse interface.
 
-Current Fuse Player version: v1.0.0
+Project: https://github.com/ImWellan/Fuse-Player  
+Issues and feature requests: https://github.com/ImWellan/Fuse-Player/issues
 
-The Fuse Player project page is available here:
+## What is included
 
-https://github.com/ImWellan/Fuse-Player
+The code package contains the Fuse Player source, XAML interface files, build
+scripts, the published native `libmpv-2.dll`, and the corresponding third-party
+source material under `Third-Party Source`.
 
-The libmpv project used by the player is available here:
+Fuse Player can:
 
-https://github.com/mpv-player/mpv
+- open files, folders and drives;
+- maintain a media queue, playback history and M3U/M3U8 playlists;
+- select audio and subtitle tracks and navigate chapters;
+- configure the bottom bar, volume display, shortcuts and interface behavior;
+- use mouse, wheel and keyboard controls for playback, seeking and speed;
+- show media and track information and save screenshots;
+- use full-screen playback on the selected display while preserving window state.
 
-The issue tracker and feature requests are available here:
+Fuse is a playback application first. Future additions such as simple video
+trimming, richer playback tracking and other useful player features must not
+interfere with playback and are not intended to turn Fuse into a recording or
+conversion application.
 
-https://github.com/ImWellan/Fuse-Player/issues
+## Native playback provenance
 
-## What this build adds
+The DLL in `Native\\libmpv-2.dll` was produced by the native Windows build on
+2026-08-31:
 
-This build adds a playback-focused workspace for users who want precise control without turning the player into a separate conversion tool.
+- mpv/libmpv: commit `2ee0b2a04b60d9a76ff2be053ba149f935c57855` (mpv
+  `0.41.0-UNKNOWN`);
+- FFmpeg: commit `818cecc6e1afab932cf4d40ef0d7b8cd40311a17`;
+- target: `x86_64-w64-mingw32`;
+- native DLL SHA-256:
+  `F709C7CA8B183BEC76B8158BF0C45C53018C63366750729352612F228FF7BDEA`.
 
-The Fuse Player tools help you:
+The matching FFmpeg configure report ends with `License: GPL version 3 or
+later` and lists the enabled external libraries in
+`THIRD-PARTY-SOURCE-MANIFEST.md`. The exact configure output is retained in the
+local native-audit build records.
 
-- Open individual files, multiple files, folders or drives.
-- Keep a persistent media queue and playback history.
-- Open and save M3U/M3U8 playlists.
-- Select audio and subtitle tracks, including external subtitles.
-- Navigate chapters and move between media in the queue.
-- Configure the bottom bar, volume display, shortcuts and interface behavior.
-- Use mouse, wheel and keyboard controls, including configurable seek and speed actions.
-- View media and track information without leaving the player.
-- Save screenshots to the configured Fuse folder.
-- Use full-screen playback with the selected display and restored window state.
-- Choose the interface language and keep settings between launches.
+The source directories that produced this DLL are included in `Third-Party
+Source`. The files named `mpv-7b8915bc1d-source.zip` and
+`ffmpeg-1d7b14f61-source.zip` are older retained archives and are not the source
+revisions used by the current DLL; use the checked-out `mpv` and `ffmpeg`
+directories for this release.
 
-The goal is to keep everyday playback fast and dependable while leaving room for useful user-focused improvements.
+## Build
 
-## How to start the application
+Development requires the .NET 10 SDK on Windows:
 
-Open:
-
-```text
-Fuze.exe
+```powershell
+dotnet restore
+dotnet build -c Debug
+dotnet publish -c Release -r win-x64 --self-contained true `
+  -p:PublishSingleFile=true `
+  -p:IncludeNativeLibrariesForSelfExtract=true `
+  -p:IncludeAllContentForSelfExtract=true `
+  -p:Version=1.0.0 -o .\\artifacts\\single
 ```
 
-This release is self-contained. The bundled libmpv engine and codecs are used directly by the executable.
-
-## Important notes
-
-- This is the official Fuse Player project by ImWeLLaN.
-- Fuse Player is a media player first. Any future utility must remain separate from and never interfere with playback.
-- The release uses the bundled native libmpv component for playback and decoding.
-- Keep the license and third-party notice files with the executable when redistributing it.
-- Always keep backups of important media and configuration files.
-
-## Planned improvements
-
-Future work will stay limited to the remaining player improvements already discussed:
-
-- simple video trimming and editing;
-- richer playback tracking and resume history;
-- other useful player-focused features explicitly requested for Fuse.
-
-These additions will remain secondary to playback and will not turn Fuse into a conversion or recording application.
+`BUILD-INFO.txt` records the observed SDK, publication command, hashes and
+the native build evidence. The configure and target logs are preserved in
+`Native Build Logs`. `SOURCE-CODE.md`,
+`THIRD-PARTY-SOURCE-MANIFEST.md` and `RELEASE-CHECKLIST.md` describe the
+corresponding-source set and redistribution steps.
 
 ## Feedback
 
-Issues and feature requests are welcome:
+Please report problems or suggest improvements at:
 
 https://github.com/ImWellan/Fuse-Player/issues
 
-If a requested change is useful and fits the project, it can be considered for a future update.
-
 ## License and copyright
 
-Fuse Player is copyright (c) 2026 ImWeLLaN and is released under the GNU General Public License version 2 or any later version. See Licences Fuze\LICENSE.txt and Licences Fuze\COPYING.txt.
+Fuse Player source code and project documentation are copyright (c) 2026
+ImWeLLaN and are released under the GNU General Public License version 2 or
+any later version. See `LICENSE.txt` and `COPYING.txt`.
 
-Third-party components keep their own licenses. See Licences Fuze\THIRD-PARTY-NOTICES.txt and the Licences Open folder.
+The native libmpv DLL and every other third-party component keep their own
+copyright and license terms. The effective native FFmpeg build is GPLv3-or-
+later. Keep `THIRD-PARTY-NOTICES.txt`, the `Licences Open` folder and the
+corresponding source directories together when redistributing the project.

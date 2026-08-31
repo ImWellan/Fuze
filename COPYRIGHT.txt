@@ -1,0 +1,13 @@
+Fuse Player Copyright Notice
+============================
+
+Copyright (c) 2026 ImWeLLaN.
+
+The original Fuse Player source code, interface code and project documentation
+are copyrighted by ImWeLLaN and are released under the GNU General Public
+License version 2 or any later version. See LICENSE.txt and COPYING.txt.
+
+This notice does not claim ownership of third-party components. Their
+copyright and license terms are listed in THIRD-PARTY-NOTICES.txt and in the
+Licences Open folder, including mpv/libmpv, FFmpeg, the native codec libraries,
+flag-icons and the .NET runtime.
